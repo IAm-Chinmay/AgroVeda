@@ -12,6 +12,8 @@ import { changeLat } from "./slice/locationSlice";
 
 //Dashboard
 import MainPage from "./MainPage";
+import Mandi from "./tabs/Mandi/Mandi";
+import MandiPrice from "./tabs/Mandi/MandiPrice";
 
 //Auth
 import LoginScreen from "./AuthScreens/LoginScreen";
@@ -62,6 +64,24 @@ function MainApp() {
             <MainStack.Screen
               name="Home"
               component={MainPage}
+              options={{
+                headerShown: false,
+                statusBarHidden: true,
+              }}
+            />
+          </MainStack.Group>
+          <MainStack.Group>
+            <MainStack.Screen
+              name="mandi"
+              component={Mandi}
+              options={{
+                title: "Find Mandi Price",
+                statusBarHidden: true,
+              }}
+            />
+            <MainStack.Screen
+              name="mandiprice"
+              component={MandiPrice}
               options={{
                 headerShown: false,
                 statusBarHidden: true,

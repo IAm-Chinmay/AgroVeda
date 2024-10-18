@@ -63,7 +63,7 @@ const MainPage = ({ navigation }) => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("mandi")}>
           <View style={styles.boxView}>
             <Text
               style={{
