@@ -41,6 +41,41 @@ app.post("/api/histecodata", async (req, res) => {
   }
 });
 
+//Find Fertilizer
+app.post("/api/findfertilizer", async (req, res) => {
+  const { crop_name, category, disease_name } = req.body;
+
+  const pythonProcess = spawn("python", ["fertilizer_finder.py"]);
+
+  pythonProcess.stdin.write(
+    JSON.stringify({ crop_name, category, disease_name })
+  );
+  pythonProcess.stdin.end();
+
+  let data = "";
+  pythonProcess.stdout.on("data", (chunk) => {
+    data += chunk.toString();
+  });
+
+  pythonProcess.stdout.on("end", () => {
+    try {
+      const result = JSON.parse(data); // Parse the received data
+      if (Array.isArray(result) && result.length > 0) {
+        res.json(result); // Send the result back as a response
+      } else {
+        res.status(404).json({
+          message: "No treatment found for the specified crop and disease.",
+        });
+      }
+    } catch (error) {
+      console.log(error);
+      res
+        .status(500)
+        .json({ message: "Error parsing the Python script output.", error });
+    }
+  });
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
