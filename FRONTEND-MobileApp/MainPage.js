@@ -32,7 +32,9 @@ const MainPage = ({ navigation }) => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => navigation.navigate("Weather_updates")}
+        >
           <View style={styles.boxView}>
             <Text
               style={{

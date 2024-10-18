@@ -14,10 +14,14 @@ import { changeLat } from "./slice/locationSlice";
 import MainPage from "./MainPage";
 import Mandi from "./tabs/Mandi/Mandi";
 import MandiPrice from "./tabs/Mandi/MandiPrice";
+import WeatherScreen from "./tabs/WeatherScreen";
 
 //Auth
 import LoginScreen from "./AuthScreens/LoginScreen";
 import RegisterScreen from "./AuthScreens/RegisterScreen";
+
+//Components
+import WeatherModel from "./Components/WeatherModel";
 
 //other
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -87,6 +91,39 @@ function MainApp() {
                 statusBarHidden: true,
               }}
             />
+          </MainStack.Group>
+          <MainStack.Group>
+            <MainStack.Screen
+              name="Weather_updates"
+              options={{
+                statusBarHidden: true,
+                title: "Weather Forecast",
+                headerStyle: {
+                  backgroundColor: "#76b39d",
+                  height: 150,
+                },
+                headerTintColor: "#fff",
+                headerTitleStyle: {
+                  fontWeight: "bold",
+                },
+              }}
+              component={WeatherScreen}
+            />
+            <MainStack.Group
+              screenOptions={{
+                presentation: "transparentModal",
+                animation: "slide_from_bottom",
+                animationDuration: 2,
+              }}
+            >
+              <MainStack.Screen
+                options={{
+                  headerShown: false,
+                }}
+                name="modal"
+                component={WeatherModel}
+              />
+            </MainStack.Group>
           </MainStack.Group>
         </MainStack.Navigator>
       ) : (
