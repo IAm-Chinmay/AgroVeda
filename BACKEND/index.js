@@ -12,8 +12,11 @@ const dieases_history_routes = require("./routes/dieases_history_routes.js");
 const community_route = require("./routes/community_route");
 const consultant_route = require("./routes/consultant_route.js");
 const market_routes = require("./routes/market_route.js");
-// const rawData = fs.readFileSync(dataFilePath);
-// const cropData = JSON.parse(rawData);
+
+const dataFilePath = path.join(__dirname, "./crops_info.json");
+const rawData = fs.readFileSync(dataFilePath);
+const cropData = JSON.parse(rawData);
+
 const stripe = require("stripe")(
   "sk_test_51QBcZQRrq29vGEbGsQoXRi5WiQrh4BqCmn3F68ZpzwAAXN57SHczFKMg4wjHtFcWOsXtMME50ckb0ncI2Rjo1LvW00uUbO0HPm"
 );
@@ -121,6 +124,54 @@ app.post("/payment-sheet", async (req, res) => {
       "pk_test_51QBcZQRrq29vGEbGNbdau4pjlkJX8oXAYcLjEFn5CbulDQjevjtneRYDZ3pTOQtrWObzhV6YI6tBYS6iMX18RDc600n8m9i58y",
   });
 });
+
+//Crop Recommendation
+app.post("/api/recommend_crop", (req, res) => {
+  const features = req.body;
+
+  const pythonProcess = spawn("python", ["crop_recommendation.py"]);
+
+  pythonProcess.stdin.write(JSON.stringify(features));
+  pythonProcess.stdin.end();
+
+  let data = "";
+  pythonProcess.stdout.on("data", (chunk) => {
+    data += chunk.toString();
+  });
+
+  pythonProcess.stdout.on("end", () => {
+    const result = JSON.parse(data);
+    console.log(result);
+    const newcrops = [];
+
+    try {
+      try {
+        // Fetch all crops that match the crop names in the array
+        result?.crops.forEach((cropName) => {
+          if (cropData[cropName]) {
+            newcrops.push(cropData[cropName]);
+          }
+        });
+
+        if (newcrops.length > 0) {
+          res.json(newcrops);
+        } else {
+          res.status(404).json({ message: "No crops found" });
+        }
+      } catch (error) {
+        console.log(error);
+        res.status(500).json({ message: "Error fetching crop data", error });
+      }
+    } catch (error) {
+      res.status(500).send("Error parsing prediction result");
+    }
+  });
+
+  pythonProcess.on("error", (err) => {
+    res.status(500).send("Error executing Python script");
+  });
+});
+
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });

@@ -19,6 +19,7 @@ import CameraScreen from "./tabs/CameraScreen";
 import CommunityForum from "./tabs/CommunityForum";
 import FarmerMarket from "./tabs/FarmerMarket/FarmerMarket";
 import FarmerToolsMarket from "./tabs/FarmerMarket/FarmerToolsMarket";
+import CropRecommendation from "./tabs/CropRecommendation/CropRecommendation";
 
 //Auth
 import LoginScreen from "./AuthScreens/LoginScreen";
@@ -37,6 +38,9 @@ import MyProducts from "./Components/Market/MyProducts";
 import SearchProduct from "./Components/Market/SearchProduct";
 import NonFarmerMarket from "./MarketForNonFamers/NonFarmerMarket";
 import NonFarmerDetailed from "./MarketForNonFamers/NonFarmerDetailed";
+import RecommendedCrops from "./Components/CropRecommendation/RecommendedCrops";
+import CropRSteps from "./Components/CropRecommendation/CropRSteps";
+import DetailedCropRecommendation from "./Components/CropRecommendation/DetailedCropRecommendation";
 
 //other
 import { createNativeStackNavigator } from "@react-navigation/native-stack";

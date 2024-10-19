@@ -1,7 +1,21 @@
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import React from "react";
+import { useDispatch } from "react-redux";
+
+import { setUserInfo } from "./slice/userAuthSlice";
 
 const MainPage = ({ navigation }) => {
+  const dispatch = useDispatch();
+
+  const LogOut = () => {
+    dispatch(
+      setUserInfo({
+        userId: "",
+        role: "",
+        login: false,
+      })
+    );
+  };
   return (
     <View>
       <Text
@@ -25,7 +39,8 @@ const MainPage = ({ navigation }) => {
           <View style={styles.boxView}>
             <Text
               style={{
-                fontSize: 25,
+                fontSize: 22,
+                color: "white",
               }}
             >
               Diagnose
@@ -38,7 +53,8 @@ const MainPage = ({ navigation }) => {
           <View style={styles.boxView}>
             <Text
               style={{
-                fontSize: 25,
+                fontSize: 22,
+                color: "white",
               }}
             >
               Weather
@@ -53,12 +69,15 @@ const MainPage = ({ navigation }) => {
           justifyContent: "space-evenly",
         }}
       >
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => navigation.navigate("croprecommendation")}
+        >
           <View style={styles.boxView}>
             <Text
               style={{
-                fontSize: 25,
+                fontSize: 22,
                 textAlign: "center",
+                color: "white",
               }}
             >
               Crop Recommend
@@ -69,7 +88,8 @@ const MainPage = ({ navigation }) => {
           <View style={styles.boxView}>
             <Text
               style={{
-                fontSize: 25,
+                fontSize: 22,
+                color: "white",
               }}
             >
               Mandi
@@ -90,8 +110,9 @@ const MainPage = ({ navigation }) => {
           <View style={styles.boxView}>
             <Text
               style={{
-                fontSize: 25,
+                fontSize: 22,
                 textAlign: "center",
+                color: "white",
               }}
             >
               Community Forum
@@ -102,7 +123,8 @@ const MainPage = ({ navigation }) => {
           <View style={styles.boxView}>
             <Text
               style={{
-                fontSize: 25,
+                fontSize: 22,
+                color: "white",
               }}
             >
               Market Place
@@ -110,6 +132,30 @@ const MainPage = ({ navigation }) => {
           </View>
         </TouchableOpacity>
       </View>
+      <TouchableOpacity
+        style={{
+          backgroundColor: "#B5C18E",
+          width: "95%",
+          height: 60,
+          marginTop: 40,
+          justifyContent: "center",
+          alignItems: "center",
+          color: "white",
+          marginLeft: "2.5%",
+          borderRadius: 15,
+          borderWidth: 1,
+        }}
+        onPress={LogOut}
+      >
+        <Text
+          style={{
+            color: "white",
+            fontSize: 25,
+          }}
+        >
+          Log Out
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -124,6 +170,8 @@ const styles = StyleSheet.create({
     borderRadius: 105,
     alignItems: "center",
     justifyContent: "center",
+    borderWidth: 1,
+    elevation: 8,
   },
 });
 
