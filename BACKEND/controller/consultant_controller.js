@@ -1,4 +1,4 @@
-const Consultant = require("../models/consultant_model");
+const User = require("../models/user_model");
 const bcrypt = require("bcrypt");
 
 exports.signUp = async (req, res) => {
@@ -6,7 +6,7 @@ exports.signUp = async (req, res) => {
 
   try {
     // Check if email already exists
-    const exist = await Consultant.findOne({ email: email });
+    const exist = await User.findOne({ email: email });
     if (exist) {
       return res.status(409).json({ message: "Email already exists" });
     }
@@ -15,11 +15,12 @@ exports.signUp = async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, 12);
 
     // Create a new user
-    const createUser = new Consultant({
+    const createUser = new User({
       username,
       email,
       password: hashedPassword,
       phoneNumber,
+      role: "consultant",
     });
 
     // Save the user
@@ -37,7 +38,7 @@ exports.loginUser = async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    const user = await Consultant.findOne({ email: email });
+    const user = await User.findOne({ email: email });
     if (!user) {
       return res.status(401).json({ message: "Invalid credentials" });
     }
@@ -57,7 +58,7 @@ exports.getUserById = async (req, res) => {
   const { userId } = req.body;
   let user;
   try {
-    user = await Consultant.findById(userId).select("-password");
+    user = await User.findById(userId).select("-password");
 
     if (!user) {
       return res.status(404).json({ message: "User not found" });

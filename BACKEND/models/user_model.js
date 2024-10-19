@@ -12,6 +12,7 @@ const userSchema = new schema({
     { type: mongoose.Types.ObjectId, required: true, ref: "CommunityPost" },
   ],
   crops: [{ type: mongoose.Types.ObjectId, ref: "Crop" }],
+  phoneNumber: { type: String },
 });
 
 // userSchema.plugin(unique_validator);

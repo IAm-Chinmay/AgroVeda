@@ -35,6 +35,7 @@ import MyPosts from "./Components/CommunityForum/MyPosts";
 import DetailedProduct from "./Components/Market/DetailedProduct";
 import MyProducts from "./Components/Market/MyProducts";
 import SearchProduct from "./Components/Market/SearchProduct";
+import NonFarmerMarket from "./MarketForNonFamers/NonFarmerMarket";
 
 //other
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -42,6 +43,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Octicons from "@expo/vector-icons/Octicons";
 import Entypo from "@expo/vector-icons/Entypo";
 import { MaterialIcons } from "@expo/vector-icons";
+import { StripeProvider } from "@stripe/stripe-react-native";
 
 const AuthStack = createNativeStackNavigator();
 const MainStack = createNativeStackNavigator();
@@ -50,6 +52,7 @@ const BottomStack = createBottomTabNavigator();
 function MainApp() {
   const dispatch = useDispatch();
   const isLoggedIn = useSelector((state) => state.userAuth.login);
+  const userRole = useSelector((state) => state.userAuth.role);
 
   useEffect(() => {
     const getLocationAsync = async () => {
@@ -251,185 +254,238 @@ function MainApp() {
     <NavigationContainer>
       {isLoggedIn ? (
         <MainStack.Navigator>
-          <MainStack.Group
-            screenOptions={{
-              contentStyle: {
-                backgroundColor: "#fcfbf5",
-              },
-            }}
-          >
-            <MainStack.Screen
-              name="Home"
-              component={MainPage}
-              options={{
-                headerShown: false,
-                statusBarHidden: true,
-              }}
-            />
-          </MainStack.Group>
-          <MainStack.Group>
-            <MainStack.Screen
-              name="mandi"
-              component={Mandi}
-              options={{
-                title: "Find Mandi Price",
-                statusBarHidden: true,
-              }}
-            />
-            <MainStack.Screen
-              name="mandiprice"
-              component={MandiPrice}
-              options={{
-                headerShown: false,
-                statusBarHidden: true,
-              }}
-            />
-          </MainStack.Group>
-          <MainStack.Group>
-            <MainStack.Screen
-              name="Weather_updates"
-              options={{
-                statusBarHidden: true,
-                title: "Weather Forecast",
-                headerStyle: {
-                  backgroundColor: "#76b39d",
-                  height: 150,
-                },
-                headerTintColor: "#fff",
-                headerTitleStyle: {
-                  fontWeight: "bold",
-                },
-              }}
-              component={WeatherScreen}
-            />
-            <MainStack.Group
-              screenOptions={{
-                presentation: "transparentModal",
-                animation: "slide_from_bottom",
-                animationDuration: 2,
-              }}
-            >
+          {userRole === "User" ? (
+            <MainStack.Group>
               <MainStack.Screen
+                name="nonfarmermarket"
+                component={NonFarmerMarket}
                 options={{
                   headerShown: false,
+                  statusBarHidden: true,
                 }}
-                name="modal"
-                component={WeatherModel}
               />
             </MainStack.Group>
-          </MainStack.Group>
-          <MainStack.Group>
-            <MainStack.Screen
-              name="Test_Image"
-              component={CameraScreen}
-              options={{
-                // headerShown: false,
+          ) : (
+            <MainStack.Group>
+              <MainStack.Group
+                screenOptions={{
+                  contentStyle: {
+                    backgroundColor: "#fcfbf5",
+                  },
+                }}
+              >
+                <MainStack.Screen
+                  name="Home"
+                  component={MainPage}
+                  options={{
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="Test_Image"
+                  component={CameraScreen}
+                  options={{
+                    // headerShown: false,
 
-                statusBarHidden: true,
-                headerStyle: {
-                  backgroundColor: "#bdd1d3",
-                },
-                headerLeft: () => (
-                  <Entypo name="location-pin" size={34} color="#155e6d" />
-                ),
-              }}
-            />
-            <MainStack.Screen
-              name="treatment"
-              component={Treatment}
-              options={{
-                headerShown: false,
-                statusBarHidden: true,
-              }}
-            />
-            <MainStack.Screen
-              name="nearestvendors"
-              component={FindVendors}
-              options={{
-                headerShown: false,
-                statusBarHidden: true,
-              }}
-            />
-            <MainStack.Screen
-              name="Image_Result"
-              component={TestImg}
-              options={{
-                title: "Loading...",
-                // headerShown: false,
-                statusBarHidden: true,
-              }}
-            />
-          </MainStack.Group>
-          <MainStack.Screen
-            name="community_forum"
-            options={{
-              // statusBarHidden: true,
-              // title: "Meet your peers",
-              // headerStyle: {
-              //   backgroundColor: "#76b39d",
-              //   height: 150,
-              // },
-              // headerTintColor: "#fff",
-              // headerTitleStyle: {
-              //   fontWeight: "bold",
-              // },
-              headerShown: false,
-              statusBarHidden: true,
-            }}
-            component={BottomTabNavigator}
-          />
-          <MainStack.Screen
-            name="ask_query"
-            component={AskQuery}
-            options={{
-              title: "Ask your query",
-              headerShown: false,
-              statusBarHidden: true,
-            }}
-          />
-          <MainStack.Screen
-            name="detail_query"
-            component={DetailQuery}
-            options={{
-              title: "Ask your query",
-              headerShown: false,
-              statusBarHidden: true,
-            }}
-          />
-          <MainStack.Group>
-            <MainStack.Screen
-              name="FarmerMarket"
-              component={BottomMarketNavigator}
-              options={{
-                headerShown: false,
-                statusBarHidden: true,
-              }}
-            />
-            <MainStack.Screen
-              name="myproduct"
-              component={MyProducts}
-              options={{
-                title: "My Products",
-                statusBarHidden: true,
-              }}
-            />
-            <MainStack.Screen
-              name="searchproduct"
-              component={SearchProduct}
-              options={{
-                title: "Searched Results",
-                statusBarHidden: true,
-              }}
-            />
-            <MainStack.Screen
-              name="detailedproduct"
-              component={DetailedProduct}
-              options={{
-                title: "Buy this product",
-                statusBarHidden: true,
-              }}
-            />
-          </MainStack.Group>
+                    statusBarHidden: true,
+                    headerStyle: {
+                      backgroundColor: "#bdd1d3",
+                    },
+                    headerLeft: () => (
+                      <Entypo name="location-pin" size={34} color="#155e6d" />
+                    ),
+                  }}
+                />
+                <MainStack.Screen
+                  name="treatment"
+                  component={Treatment}
+                  options={{
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="nearestvendors"
+                  component={FindVendors}
+                  options={{
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="Weather_updates"
+                  options={{
+                    statusBarHidden: true,
+                    title: "Weather Forecast",
+                    headerStyle: {
+                      backgroundColor: "#76b39d",
+                      height: 150,
+                    },
+                    headerTintColor: "#fff",
+                    headerTitleStyle: {
+                      fontWeight: "bold",
+                    },
+                  }}
+                  component={WeatherScreen}
+                />
+                <MainStack.Screen
+                  name="community_forum"
+                  options={{
+                    // statusBarHidden: true,
+                    // title: "Meet your peers",
+                    // headerStyle: {
+                    //   backgroundColor: "#76b39d",
+                    //   height: 150,
+                    // },
+                    // headerTintColor: "#fff",
+                    // headerTitleStyle: {
+                    //   fontWeight: "bold",
+                    // },
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                  component={BottomTabNavigator}
+                />
+              </MainStack.Group>
+              <MainStack.Group
+                screenOptions={{
+                  presentation: "containedModal",
+                  animation: "fade",
+                  animationDuration: 1,
+                }}
+              >
+                <MainStack.Screen
+                  name="Image_Result"
+                  component={TestImg}
+                  options={{
+                    title: "Loading...",
+                    // headerShown: false,
+                    // statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="ask_query"
+                  component={AskQuery}
+                  options={{
+                    title: "Ask your query",
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="detail_query"
+                  component={DetailQuery}
+                  options={{
+                    title: "Ask your query",
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                />
+              </MainStack.Group>
+              <MainStack.Group
+                screenOptions={{
+                  presentation: "transparentModal",
+                  animation: "slide_from_bottom",
+                  animationDuration: 2,
+                }}
+              >
+                <MainStack.Screen
+                  options={{
+                    headerShown: false,
+                  }}
+                  name="modal"
+                  component={WeatherModel}
+                />
+              </MainStack.Group>
+              <MainStack.Group>
+                <MainStack.Screen
+                  name="FarmerMarket"
+                  component={BottomMarketNavigator}
+                  options={{
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="myproduct"
+                  component={MyProducts}
+                  options={{
+                    title: "My Products",
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="searchproduct"
+                  component={SearchProduct}
+                  options={{
+                    title: "Searched Results",
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="detailedproduct"
+                  component={DetailedProduct}
+                  options={{
+                    title: "Buy this product",
+                    statusBarHidden: true,
+                  }}
+                />
+              </MainStack.Group>
+              <MainStack.Group>
+                <MainStack.Screen
+                  name="croprecommendation"
+                  component={CropRecommendation}
+                  options={{
+                    title: "Crop Recommendation",
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="recommendedcrops"
+                  component={RecommendedCrops}
+                  options={{
+                    title: "Top 3 Crops",
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="detailcroprecommendation"
+                  component={DetailedCropRecommendation}
+                  options={{
+                    title: "Recommended Crop",
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="cropsteps"
+                  component={CropRSteps}
+                  options={{
+                    title: "Follow this steps",
+                    statusBarHidden: true,
+                  }}
+                />
+              </MainStack.Group>
+              <MainStack.Group>
+                <MainStack.Screen
+                  name="mandi"
+                  component={Mandi}
+                  options={{
+                    title: "Find Mandi Price",
+                    statusBarHidden: true,
+                  }}
+                />
+                <MainStack.Screen
+                  name="mandiprice"
+                  component={MandiPrice}
+                  options={{
+                    headerShown: false,
+                    statusBarHidden: true,
+                  }}
+                />
+              </MainStack.Group>
+            </MainStack.Group>
+          )}
         </MainStack.Navigator>
       ) : (
         <AuthStack.Navigator initialRouteName="Registration_Screen">
@@ -459,8 +515,10 @@ function MainApp() {
 
 export default function App() {
   return (
-    <Provider store={store}>
-      <MainApp />
-    </Provider>
+    <StripeProvider publishableKey="pk_test_51QBcZQRrq29vGEbGNbdau4pjlkJX8oXAYcLjEFn5CbulDQjevjtneRYDZ3pTOQtrWObzhV6YI6tBYS6iMX18RDc600n8m9i58y">
+      <Provider store={store}>
+        <MainApp />
+      </Provider>
+    </StripeProvider>
   );
 }

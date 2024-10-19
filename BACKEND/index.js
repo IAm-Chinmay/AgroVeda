@@ -14,6 +14,9 @@ const consultant_route = require("./routes/consultant_route.js");
 const market_routes = require("./routes/market_route.js");
 // const rawData = fs.readFileSync(dataFilePath);
 // const cropData = JSON.parse(rawData);
+const stripe = require("stripe")(
+  "sk_test_51QBcZQRrq29vGEbGsQoXRi5WiQrh4BqCmn3F68ZpzwAAXN57SHczFKMg4wjHtFcWOsXtMME50ckb0ncI2Rjo1LvW00uUbO0HPm"
+);
 
 const app = express();
 const port = 3000;
@@ -93,6 +96,31 @@ app.use("/api/dhistory", dieases_history_routes);
 //Community
 app.use("/api/community", community_route);
 
+//Create payment
+app.post("/payment-sheet", async (req, res) => {
+  const amount = req.body.amount;
+  const customer = await stripe.customers.create();
+  const ephemeralKey = await stripe.ephemeralKeys.create(
+    { customer: customer.id },
+    { apiVersion: "2024-09-30.acacia" }
+  );
+  const paymentIntent = await stripe.paymentIntents.create({
+    amount: amount * 100,
+    currency: "inr",
+    customer: customer.id,
+    automatic_payment_methods: {
+      enabled: true,
+    },
+  });
+
+  res.json({
+    paymentIntent: paymentIntent.client_secret,
+    ephemeralKey: ephemeralKey.secret,
+    customer: customer.id,
+    publishableKey:
+      "pk_test_51QBcZQRrq29vGEbGNbdau4pjlkJX8oXAYcLjEFn5CbulDQjevjtneRYDZ3pTOQtrWObzhV6YI6tBYS6iMX18RDc600n8m9i58y",
+  });
+});
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
