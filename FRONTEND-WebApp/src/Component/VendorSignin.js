@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login, logout } from "../action";
 import axios from "axios";
-
-function ConsultantRegister() {
+function VendorSignin() {
   const dispatch = useDispatch();
 
   const [email, setEmail] = useState("");
@@ -13,7 +12,7 @@ function ConsultantRegister() {
   const onLogin = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:3000/api/consultant/login", {
+      .post("http://localhost:3000/api/market/login", {
         email: email,
         password: pass,
       })
@@ -23,10 +22,6 @@ function ConsultantRegister() {
       .catch((er) => {
         console.log(er);
       });
-  };
-
-  const handleLogout = () => {
-    dispatch(logout());
   };
   return (
     <div
@@ -57,7 +52,7 @@ function ConsultantRegister() {
         </h5>
         <h5 style={{ fontWeight: 400, margin: "0" }}>
           <Link
-            to="/signup"
+            to="/vsignup"
             style={{ textDecoration: "none", color: "blue", cursor: "pointer" }}
           >
             Sign Up
@@ -130,7 +125,7 @@ function ConsultantRegister() {
                 textAlign: "center",
               }}
             >
-              <Link to={"/vsignin"}>Sign For Vendor</Link>
+              <Link to={"/"}>Sign For Consultant</Link>
             </h4>
           </form>
         </div>
@@ -139,4 +134,4 @@ function ConsultantRegister() {
   );
 }
 
-export default ConsultantRegister;
+export default VendorSignin;

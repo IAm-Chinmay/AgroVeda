@@ -16,13 +16,16 @@ import { useSelector } from "react-redux";
 import Entypo from "@expo/vector-icons/Entypo";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
+import { useNavigation } from "@react-navigation/native";
 
-const CameraScreen = ({ navigation }) => {
+const CameraScreen = () => {
   const [crop, setCrop] = useState();
   const [cropDesc, setCropDesc] = useState();
   const [part, setPart] = useState();
   const [history, setHistory] = useState();
   const [loading, setLoading] = useState(true);
+
+  const navigation = useNavigation();
 
   const userId = useSelector((state) => state.userAuth.userId);
 
@@ -35,6 +38,7 @@ const CameraScreen = ({ navigation }) => {
       setLoading(true);
       try {
         await getDHistory();
+        await getAddress();
       } catch (error) {
         console.error(error);
       } finally {
@@ -81,6 +85,30 @@ const CameraScreen = ({ navigation }) => {
       .catch((er) => {
         console.log(er);
       });
+  };
+
+  const lat = useSelector((state) => state.location.lat);
+  const lon = useSelector((state) => state.location.long);
+
+  const getAddress = async () => {
+    try {
+      const response = await axios.get("https://geocode.maps.co/reverse", {
+        params: {
+          lat: lat,
+          lon: lon,
+          api_key: "670ec062a1482448803045proe3227e",
+        },
+      });
+
+      const data = response.data;
+      const city = data.address.city || "";
+
+      navigation.setOptions({
+        title: city,
+      });
+    } catch (error) {
+      console.error("Error fetching reverse geocode data:", error);
+    }
   };
 
   return (

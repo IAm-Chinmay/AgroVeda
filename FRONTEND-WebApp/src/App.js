@@ -2,6 +2,8 @@ import "./App.css";
 import ConsultantRegister from "./Component/ConsultantRegister";
 import ConsultantSignUp from "./Component/ConsultantSignUp";
 import ConsultantDashboard from "./Component/ConsultantDashboard";
+import VendorSignin from "./Component/VendorSignin";
+import VendorSignup from "./Component/VendorSignup";
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,6 +21,8 @@ function App() {
           <Routes>
             <Route path="/" element={<ConsultantRegister />} />
             <Route path="/signup" element={<ConsultantSignUp />} />
+            <Route path="/vsignin" element={<VendorSignin />} />
+            <Route path="/vsignup" element={<VendorSignup />} />
           </Routes>
         ) : (
           <Routes>
