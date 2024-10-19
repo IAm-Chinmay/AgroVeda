@@ -21,7 +21,7 @@ const MainPage = ({ navigation }) => {
           justifyContent: "space-evenly",
         }}
       >
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("Test_Image")}>
           <View style={styles.boxView}>
             <Text
               style={{

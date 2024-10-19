@@ -15,6 +15,7 @@ import MainPage from "./MainPage";
 import Mandi from "./tabs/Mandi/Mandi";
 import MandiPrice from "./tabs/Mandi/MandiPrice";
 import WeatherScreen from "./tabs/WeatherScreen";
+import CameraScreen from "./tabs/CameraScreen";
 
 //Auth
 import LoginScreen from "./AuthScreens/LoginScreen";
@@ -22,9 +23,13 @@ import RegisterScreen from "./AuthScreens/RegisterScreen";
 
 //Components
 import WeatherModel from "./Components/WeatherModel";
-
+import TestImg from "./Components/TestImg";
+import Treatment from "./Components/RecommendTreatment.js/Treatment";
+import FindVendors from "./Components/RecommendTreatment.js/FindVendors";
 //other
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Octicons from "@expo/vector-icons/Octicons";
+import Entypo from "@expo/vector-icons/Entypo";
 
 const AuthStack = createNativeStackNavigator();
 const MainStack = createNativeStackNavigator();
@@ -124,6 +129,48 @@ function MainApp() {
                 component={WeatherModel}
               />
             </MainStack.Group>
+          </MainStack.Group>
+          <MainStack.Group>
+            <MainStack.Screen
+              name="Test_Image"
+              component={CameraScreen}
+              options={{
+                // headerShown: false,
+
+                statusBarHidden: true,
+                headerStyle: {
+                  backgroundColor: "#bdd1d3",
+                },
+                headerLeft: () => (
+                  <Entypo name="location-pin" size={34} color="#155e6d" />
+                ),
+              }}
+            />
+            <MainStack.Screen
+              name="treatment"
+              component={Treatment}
+              options={{
+                headerShown: false,
+                statusBarHidden: true,
+              }}
+            />
+            <MainStack.Screen
+              name="nearestvendors"
+              component={FindVendors}
+              options={{
+                headerShown: false,
+                statusBarHidden: true,
+              }}
+            />
+            <MainStack.Screen
+              name="Image_Result"
+              component={TestImg}
+              options={{
+                title: "Loading...",
+                // headerShown: false,
+                statusBarHidden: true,
+              }}
+            />
           </MainStack.Group>
         </MainStack.Navigator>
       ) : (

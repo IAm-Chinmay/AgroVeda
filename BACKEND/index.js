@@ -8,6 +8,7 @@ const fs = require("fs");
 const path = require("path");
 
 const user_routes = require("./routes/user_routes.js");
+const dieases_history_routes = require("./routes/dieases_history_routes.js");
 // const rawData = fs.readFileSync(dataFilePath);
 // const cropData = JSON.parse(rawData);
 
@@ -44,7 +45,9 @@ app.post("/api/histecodata", async (req, res) => {
 //Find Fertilizer
 app.post("/api/findfertilizer", async (req, res) => {
   const { crop_name, category, disease_name } = req.body;
-
+  console.log("hello", crop_name, "hello");
+  console.log(category);
+  console.log(disease_name);
   const pythonProcess = spawn("python", ["fertilizer_finder.py"]);
 
   pythonProcess.stdin.write(
@@ -54,14 +57,16 @@ app.post("/api/findfertilizer", async (req, res) => {
 
   let data = "";
   pythonProcess.stdout.on("data", (chunk) => {
+    console.log("Chunk from Python:", chunk.toString());
     data += chunk.toString();
   });
 
   pythonProcess.stdout.on("end", () => {
     try {
-      const result = JSON.parse(data); // Parse the received data
+      const result = JSON.parse(data);
       if (Array.isArray(result) && result.length > 0) {
-        res.json(result); // Send the result back as a response
+        res.json(result);
+        console.log(result);
       } else {
         res.status(404).json({
           message: "No treatment found for the specified crop and disease.",
@@ -75,6 +80,9 @@ app.post("/api/findfertilizer", async (req, res) => {
     }
   });
 });
+
+//Dieases History
+app.use("/api/dhistory", dieases_history_routes);
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);

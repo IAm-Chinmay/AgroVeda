@@ -15,11 +15,9 @@ exports.createDieases = async (req, res) => {
       .find({ user })
       .sort({ dieaseDate: -1 });
 
-    // If there are more than 3 entries, delete the oldest ones
     if (allUserEntries.length > 3) {
       const entriesToRemove = allUserEntries.slice(3);
       for (const entry of entriesToRemove) {
-        // Use findOneAndDelete to trigger the middleware
         await dieasesHistory.findOneAndDelete({ _id: entry._id });
       }
     }
@@ -33,7 +31,6 @@ exports.getDieases = async (req, res) => {
   const { userId } = req.body;
 
   try {
-    // Query to find all records where the user field matches the userId
     const userDiseases = await dieasesHistory.find({ user: userId });
 
     if (userDiseases.length > 0) {
