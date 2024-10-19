@@ -17,6 +17,8 @@ import MandiPrice from "./tabs/Mandi/MandiPrice";
 import WeatherScreen from "./tabs/WeatherScreen";
 import CameraScreen from "./tabs/CameraScreen";
 import CommunityForum from "./tabs/CommunityForum";
+import FarmerMarket from "./tabs/FarmerMarket/FarmerMarket";
+import FarmerToolsMarket from "./tabs/FarmerMarket/FarmerToolsMarket";
 
 //Auth
 import LoginScreen from "./AuthScreens/LoginScreen";
@@ -30,12 +32,16 @@ import FindVendors from "./Components/RecommendTreatment.js/FindVendors";
 import AskQuery from "./Components/CommunityForum/AskQuery";
 import DetailQuery from "./Components/CommunityForum/DetailQuery";
 import MyPosts from "./Components/CommunityForum/MyPosts";
+import DetailedProduct from "./Components/Market/DetailedProduct";
+import MyProducts from "./Components/Market/MyProducts";
+import SearchProduct from "./Components/Market/SearchProduct";
 
 //other
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Octicons from "@expo/vector-icons/Octicons";
 import Entypo from "@expo/vector-icons/Entypo";
+import { MaterialIcons } from "@expo/vector-icons";
 
 const AuthStack = createNativeStackNavigator();
 const MainStack = createNativeStackNavigator();
@@ -149,6 +155,93 @@ function MainApp() {
             },
           }}
           component={MyPosts}
+        />
+      </BottomStack.Navigator>
+    );
+  }
+
+  function BottomMarketNavigator() {
+    return (
+      <BottomStack.Navigator
+        screenOptions={({ route }) => ({
+          tabBarIcon: ({ focused, color, size }) => {
+            let iconName;
+            let sizes;
+            if (route.name === "farmermarket") {
+              iconName = focused ? "shopping-cart" : "shopping-cart";
+              sizes = focused ? 24 : 34;
+            } else if (route.name === "farmermarkettools") {
+              iconName = focused ? "sell" : "sell";
+              sizes = focused ? 24 : 34;
+            }
+            return <MaterialIcons name={iconName} size={sizes} color={color} />;
+          },
+          tabBarLabel: ({ focused }) => {
+            let name;
+            let non;
+            if (route.name === "farmermarket") {
+              name = focused ? "Bazar" : "";
+              non = focused ? "" : "none";
+            } else if (route.name === "farmermarkettools") {
+              name = focused ? "Sell Crops" : "";
+              non = focused ? "" : "none";
+            }
+            return (
+              <Text
+                style={{
+                  color: "#58ceb2",
+                  display: non && "none",
+                  fontWeight: 800,
+                }}
+              >
+                {name}
+              </Text>
+            );
+          },
+          tabBarActiveTintColor: "#58ceb2",
+          tabBarInactiveTintColor: "gray",
+          tabBarStyle: {
+            paddingVertical: 5,
+            borderTopLeftRadius: 15,
+            borderTopRightRadius: 15,
+            backgroundColor: "white",
+            position: "absolute",
+            height: 60,
+          },
+          tabBarLabelStyle: { paddingBottom: 3 },
+        })}
+      >
+        <BottomStack.Screen
+          name="farmermarket"
+          options={{
+            statusBarHidden: true,
+            title: "Bazar",
+            headerStyle: {
+              backgroundColor: "#76b39d",
+              height: 50,
+            },
+            headerTintColor: "#fff",
+            headerTitleStyle: {
+              fontWeight: "bold",
+            },
+          }}
+          component={FarmerMarket}
+        />
+        <BottomStack.Screen
+          name="farmermarkettools"
+          options={{
+            statusBarHidden: true,
+            title: "Sell Your Crops",
+            headerStyle: {
+              backgroundColor: "#76b39d",
+              height: 50,
+            },
+            headerTintColor: "#fff",
+            headerTitleStyle: {
+              fontWeight: "bold",
+            },
+          }}
+          component={FarmerToolsMarket}
         />
       </BottomStack.Navigator>
     );
@@ -303,6 +396,40 @@ function MainApp() {
               statusBarHidden: true,
             }}
           />
+          <MainStack.Group>
+            <MainStack.Screen
+              name="FarmerMarket"
+              component={BottomMarketNavigator}
+              options={{
+                headerShown: false,
+                statusBarHidden: true,
+              }}
+            />
+            <MainStack.Screen
+              name="myproduct"
+              component={MyProducts}
+              options={{
+                title: "My Products",
+                statusBarHidden: true,
+              }}
+            />
+            <MainStack.Screen
+              name="searchproduct"
+              component={SearchProduct}
+              options={{
+                title: "Searched Results",
+                statusBarHidden: true,
+              }}
+            />
+            <MainStack.Screen
+              name="detailedproduct"
+              component={DetailedProduct}
+              options={{
+                title: "Buy this product",
+                statusBarHidden: true,
+              }}
+            />
+          </MainStack.Group>
         </MainStack.Navigator>
       ) : (
         <AuthStack.Navigator initialRouteName="Registration_Screen">

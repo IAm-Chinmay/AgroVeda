@@ -10,6 +10,8 @@ const path = require("path");
 const user_routes = require("./routes/user_routes.js");
 const dieases_history_routes = require("./routes/dieases_history_routes.js");
 const community_route = require("./routes/community_route");
+const consultant_route = require("./routes/consultant_route.js");
+const market_routes = require("./routes/market_route.js");
 // const rawData = fs.readFileSync(dataFilePath);
 // const cropData = JSON.parse(rawData);
 
@@ -78,6 +80,12 @@ app.post("/api/findfertilizer", async (req, res) => {
     }
   });
 });
+
+//Consultant
+app.use("/api/consultant", consultant_route);
+
+//Market
+app.use("/api/market", market_routes);
 
 //Dieases History
 app.use("/api/dhistory", dieases_history_routes);

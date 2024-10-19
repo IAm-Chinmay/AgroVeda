@@ -98,7 +98,7 @@ const MainPage = ({ navigation }) => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("FarmerMarket")}>
           <View style={styles.boxView}>
             <Text
               style={{
