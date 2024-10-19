@@ -9,6 +9,7 @@ const path = require("path");
 
 const user_routes = require("./routes/user_routes.js");
 const dieases_history_routes = require("./routes/dieases_history_routes.js");
+const community_route = require("./routes/community_route");
 // const rawData = fs.readFileSync(dataFilePath);
 // const cropData = JSON.parse(rawData);
 
@@ -45,9 +46,6 @@ app.post("/api/histecodata", async (req, res) => {
 //Find Fertilizer
 app.post("/api/findfertilizer", async (req, res) => {
   const { crop_name, category, disease_name } = req.body;
-  console.log("hello", crop_name, "hello");
-  console.log(category);
-  console.log(disease_name);
   const pythonProcess = spawn("python", ["fertilizer_finder.py"]);
 
   pythonProcess.stdin.write(
@@ -83,6 +81,9 @@ app.post("/api/findfertilizer", async (req, res) => {
 
 //Dieases History
 app.use("/api/dhistory", dieases_history_routes);
+
+//Community
+app.use("/api/community", community_route);
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);

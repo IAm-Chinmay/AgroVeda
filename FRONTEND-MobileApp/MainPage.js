@@ -84,7 +84,9 @@ const MainPage = ({ navigation }) => {
           justifyContent: "space-evenly",
         }}
       >
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => navigation.navigate("community_forum")}
+        >
           <View style={styles.boxView}>
             <Text
               style={{
