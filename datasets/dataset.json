@@ -1,0 +1,1536 @@
+{
+    "tomato": {
+        "fungicide": {
+            "Early Blight ": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                },
+                {
+                    "name": "FMC velzo",
+                    "usage": "2 ml in 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.eMhWPpy8bEg-6swlb-UDKwHaHK?w=198&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "tricolor best agro life",
+                    "usage": "330 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.AeythAFtICThXBBURCqBFQHaKe?rs=1&pid=ImgDetMain"
+                }
+            ],
+            "Early  Leaf Spot": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            " Late Blight ": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                },
+                {
+                    "name": "FMC velzo",
+                    "usage": "2 ml in 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.eMhWPpy8bEg-6swlb-UDKwHaHK?w=198&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "tricolor best agro life",
+                    "usage": "330 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.AeythAFtICThXBBURCqBFQHaKe?rs=1&pid=ImgDetMain"
+                }
+            ],
+            " Late Leaf Spot": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            "Powdery Mildew": [
+                {
+                    "name": "zanet dhanuka",
+                    "usage": "1 kilo in 300-500 litre water",
+                    "image": "https://5.imimg.com/data5/IOS/Default/2024/1/380924705/EW/YT/IN/146628076/product-jpeg-500x500.png"
+                }
+            ],
+            "Bacterial Leaf Spot ": [
+                {
+                    "name": "zanet dhanuka",
+                    "usage": "1 kilo in 300-500 litre water",
+                    "image": "https://5.imimg.com/data5/IOS/Default/2024/1/380924705/EW/YT/IN/146628076/product-jpeg-500x500.png"
+                }
+            ]
+        },
+        "pesticide": {
+            "Tomato Fruit Rot": [
+                {
+                    "name": "FMC Corprima",
+                    "usage": "86 gm in 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.-xy7fbWCBAuvieHUo_wMBgHaIt?w=143&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Shinwa",
+                    "usage": "5ml per 15 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Tomato Fruit Blight.": [
+                {
+                    "name": "FMC Corprima",
+                    "usage": "86 gm in 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.-xy7fbWCBAuvieHUo_wMBgHaIt?w=143&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7 "
+                },
+                {
+                    "name": "Shinwa",
+                    "usage": "5ml per 15 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "thrips": [
+                {
+                    "name": "Shinwa",
+                    "usage": "5ml per 15 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Shinwa",
+                    "usage": "5ml per 15 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Root  Knot ": [
+                {
+                    "name": "Salibro  Corteva",
+                    "usage": "2 milli per litre",
+                    "image": "https://th.bing.com/th/id/OIP.Sb3XmRN2RB9eX7O7cl5A-QAAAA?rs=1&pid=ImgDetMain"
+                }
+            ],
+            "Red Rust": [
+                {
+                    "name": "SA-MAGNITUDE",
+                    "usage": "2.5  milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/10/356217967/PZ/II/FQ/11257825/img20231027180740-1000x1000.jpeg"
+                }
+            ],
+            "Red Leaf Spot": [
+                {
+                    "name": "SA-MAGNITUDE",
+                    "usage": "2.5  milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/10/356217967/PZ/II/FQ/11257825/img20231027180740-1000x1000.jpeg"
+                }
+            ],
+            "red spider mite": [
+                {
+                    "name": "SA-MAGNITUDE",
+                    "usage": "2.5  milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/10/356217967/PZ/II/FQ/11257825/img20231027180740-1000x1000.jpeg"
+                }
+            ],
+            "mosquito bug": [
+                {
+                    "name": "SA-MAGNITUDE",
+                    "usage": "2.5  milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/10/356217967/PZ/II/FQ/11257825/img20231027180740-1000x1000.jpeg"
+                }
+            ],
+            "white fly": [
+                {
+                    "name": "SA-MAGNITUDE",
+                    "usage": "2.5  milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/10/356217967/PZ/II/FQ/11257825/img20231027180740-1000x1000.jpeg"
+                },
+                {
+                    "name": "GHARDA Firrangi",
+                    "usage": "750 gm per 500 litre water",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/11/360517482/LW/TX/VI/15036727/7-removebg-preview-500x500.png"
+                }
+            ],
+            "Fruit Borer": [
+                {
+                    "name": "GHARDA Firrangi",
+                    "usage": "750 gm per 500 litre water",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/11/360517482/LW/TX/VI/15036727/7-removebg-preview-500x500.png"
+                }
+            ],
+            "Brown Plant": [
+                {
+                    "name": "GHARDA Firrangi",
+                    "usage": "750 gm per 500 litre water",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2023/11/360517482/LW/TX/VI/15036727/7-removebg-preview-500x500.png"
+                }
+            ]
+        },
+        "herbicide": {},
+        "insecticide": {}
+    },
+    "potato": {
+        "fungicide": {
+            "Early Blight ": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                },
+                {
+                    "name": "Derecho",
+                    "usage": "1 ml per litre water",
+                    "image": "https://th.bing.com/th/id/OIP.ZM5dFCYN_s87oMAPbBXDSgAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "downy mildew": [
+                {
+                    "name": "Derecho",
+                    "usage": "1 ml per litre water",
+                    "image": "https://th.bing.com/th/id/OIP.ZM5dFCYN_s87oMAPbBXDSgAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            " Late Blight ": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                },
+                {
+                    "name": "Derecho",
+                    "usage": "1 ml per litre water",
+                    "image": "https://th.bing.com/th/id/OIP.ZM5dFCYN_s87oMAPbBXDSgAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Hocusia fmc",
+                    "usage": "600 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.iD2c3AhuMwyhfeiUYXx9tAHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Kocide 3000",
+                    "usage": "500 gm per acre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/2/MC/WI/TH/56013894/kocide-3000-1-1000x1000.jpg"
+                },
+                {
+                    "name": "FMC velzo",
+                    "usage": "2 ml in 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.eMhWPpy8bEg-6swlb-UDKwHaHK?w=198&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "RIDOMIL Gold MZ",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.9o3INaCbnzXEEuSHp3aW2wHaJ4?rs=1&pid=ImgDetMain"
+                }
+            ],
+            "Brown leaf spot": [
+                {
+                    "name": "Tezing",
+                    "usage": "2o gm per 100 kilo seeds",
+                    "image": "https://i.ytimg.com/vi/hSVkE-R9FRg/hqdefault.jpg"
+                }
+            ]
+        },
+        "pesticide": {},
+        "herbicide": {
+            "Powdery Mildew": [
+                {
+                    "name": "Propanil",
+                    "usage": "1200 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.uKIO5y4-CtAx1y-wRmaJLwHaHa?rs=1&pid=ImgDetMain"
+                }
+            ],
+            "Downy Mildew": [
+                {
+                    "name": "Propanil",
+                    "usage": "1200 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.uKIO5y4-CtAx1y-wRmaJLwHaHa?rs=1&pid=ImgDetMain"
+                }
+            ],
+            "Leaf Spot": [
+                {
+                    "name": "Propanil",
+                    "usage": "1200 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.uKIO5y4-CtAx1y-wRmaJLwHaHa?rs=1&pid=ImgDetMain"
+                }
+            ],
+            "Rust": [
+                {
+                    "name": "Propanil",
+                    "usage": "1200 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.uKIO5y4-CtAx1y-wRmaJLwHaHa?rs=1&pid=ImgDetMain"
+                }
+            ],
+            "Head Smut": [
+                {
+                    "name": "Propanil",
+                    "usage": "1200 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.uKIO5y4-CtAx1y-wRmaJLwHaHa?rs=1&pid=ImgDetMain"
+                }
+            ]
+        },
+        "insecticide": {}
+    },
+    "chilli": {
+        "fungicide": {
+            "fruit rot anthracnose": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            "Dieback": [
+                {
+                    "name": "Kocide 3000 Bharat Certis Agriscience",
+                    "usage": "500 gm /acre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/2/MC/WI/TH/56013894/kocide-3000-1-1000x1000.jpg"
+                }
+            ],
+            "Anthracnose": [
+                {
+                    "name": "Kocide 3000 Bharat Certis Agriscience",
+                    "usage": "500 gm /acre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/2/MC/WI/TH/56013894/kocide-3000-1-1000x1000.jpg"
+                },
+                {
+                    "name": "adama-ALMAGOR",
+                    "usage": "1 ltr, 500ml",
+                    "image": "https://th.bing.com/th/id/OIP.I1_GtL4kozIaq5NxxjANygAAAA?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Brown leaf spot": [
+                {
+                    "name": "Kocide 3000 Bharat Certis Agriscience",
+                    "usage": "500 gm /acre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/2/MC/WI/TH/56013894/kocide-3000-1-1000x1000.jpg"
+                },
+                {
+                    "name": "Tezing",
+                    "usage": "2o gm per 100 kilo seeds",
+                    "image": "https://i.ytimg.com/vi/hSVkE-R9FRg/hqdefault.jpg"
+                }
+            ],
+            "toughest chewing pests": [
+                {
+                    "name": "Exponus - BASF",
+                    "usage": "200 L - water volume / Acre ",
+                    "image": "https://th.bing.com/th/id/OIP.lyUWWYfxkrADcryRuKX3rgHaL1?w=124&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "leaf miner": [
+                {
+                    "name": "Exponus - BASF",
+                    "usage": "200 L - water volume / Acre ",
+                    "image": "https://th.bing.com/th/id/OIP.lyUWWYfxkrADcryRuKX3rgHaL1?w=124&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Fruit and shoot borers": [
+                {
+                    "name": "Exponus - BASF",
+                    "usage": "200 L - water volume / Acre ",
+                    "image": "https://th.bing.com/th/id/OIP.lyUWWYfxkrADcryRuKX3rgHaL1?w=124&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Tezing",
+                    "usage": "2o gm per 100 kilo seeds",
+                    "image": "https://i.ytimg.com/vi/hSVkE-R9FRg/hqdefault.jpg"
+                }
+            ],
+            "Lepidopteran": [
+                {
+                    "name": "Shinwa /Gresiya ",
+                    "usage": "160 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Thrips": [
+                {
+                    "name": "Shinwa /Gresiya ",
+                    "usage": "160 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leaf Minor": [
+                {
+                    "name": "Shinwa /Gresiya ",
+                    "usage": "160 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "american pest": [
+                {
+                    "name": "Shinwa /Gresiya ",
+                    "usage": "160 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "thrips": [
+                {
+                    "name": "Shinwa /Gresiya ",
+                    "usage": "160 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ3t2r9rYPJDB1uka3lRZgHaHa?w=165&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Die Back": [
+                {
+                    "name": "adama-ALMAGOR",
+                    "usage": "1 ltr, 500ml",
+                    "image": "https://th.bing.com/th/id/OIP.I1_GtL4kozIaq5NxxjANygAAAA?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Powdery Mildew": [
+                {
+                    "name": "Willowood Dimoxa",
+                    "usage": "625 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.w-5Parl5jWzLZH4gP5eNhAAAAA?w=197&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "NACL industries ltd-Oscar",
+                    "usage": "830 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.8emU5yDv_VkWEha14egzkQAAAA?w=154&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            " Die Back": [
+                {
+                    "name": "Willowood Dimoxa",
+                    "usage": "625 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.w-5Parl5jWzLZH4gP5eNhAAAAA?w=197&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "NACL industries ltd-Oscar",
+                    "usage": "830 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.8emU5yDv_VkWEha14egzkQAAAA?w=154&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Fruit Rot": [
+                {
+                    "name": "Willowood Dimoxa",
+                    "usage": "625 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.w-5Parl5jWzLZH4gP5eNhAAAAA?w=197&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "NACL industries ltd-Oscar",
+                    "usage": "830 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.8emU5yDv_VkWEha14egzkQAAAA?w=154&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Ingene Intop Pro",
+                    "usage": "832 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.E1e7V-RzEjHorOwrKi14EwHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leaf Spot ": [
+                {
+                    "name": "Rumpus sumitomo ",
+                    "usage": "800g per acre in 200 ltr. of water.",
+                    "image": "https://th.bing.com/th/id/OIP.6je6VoBDXX_MtJolCS2rlAAAAA?w=133&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            " Anthracnose": [
+                {
+                    "name": "Rumpus sumitomo ",
+                    "usage": "800g per acre in 200 ltr. of water.",
+                    "image": "https://th.bing.com/th/id/OIP.6je6VoBDXX_MtJolCS2rlAAAAA?w=133&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Root  Knot ": [
+                {
+                    "name": "Salibro  Corteva",
+                    "usage": "2 milli per litre",
+                    "image": "https://th.bing.com/th/id/OIP.Sb3XmRN2RB9eX7O7cl5A-QAAAA?rs=1&pid=ImgDetMain"
+                }
+            ]
+        },
+        "pesticide": {},
+        "herbicide": {},
+        "insecticide": {
+            "fruit and shoot borers": [
+                {
+                    "name": "PI Brofreya",
+                    "usage": "50 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.3bb1FZgK34i4RBYGo5dMsQAAAA?w=139&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "thrips": [
+                {
+                    "name": "PI Brofreya",
+                    "usage": "50 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.3bb1FZgK34i4RBYGo5dMsQAAAA?w=139&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "jassids": [
+                {
+                    "name": "PI Brofreya",
+                    "usage": "50 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.3bb1FZgK34i4RBYGo5dMsQAAAA?w=139&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "diamondback moth": [
+                {
+                    "name": "PI Brofreya",
+                    "usage": "50 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.3bb1FZgK34i4RBYGo5dMsQAAAA?w=139&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "tobacco caterpillar": [
+                {
+                    "name": "PI Brofreya",
+                    "usage": "50 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.3bb1FZgK34i4RBYGo5dMsQAAAA?w=139&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Yellow Mite": [
+                {
+                    "name": "TATA SEDNA",
+                    "usage": "1.0 - 1.5 Ml / Liter Water",
+                    "image": "https://th.bing.com/th/id/OIP.tgScT2pRQT9-2Rf1zqJpWgHaJQ?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "red spider mite": [
+                {
+                    "name": "TATA SEDNA",
+                    "usage": "1.0 - 1.5 Ml / Liter Water",
+                    "image": "https://th.bing.com/th/id/OIP.tgScT2pRQT9-2Rf1zqJpWgHaJQ?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "purple mite": [
+                {
+                    "name": "TATA SEDNA",
+                    "usage": "1.0 - 1.5 Ml / Liter Water",
+                    "image": "https://th.bing.com/th/id/OIP.tgScT2pRQT9-2Rf1zqJpWgHaJQ?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "pink mite": [
+                {
+                    "name": "TATA SEDNA",
+                    "usage": "1.0 - 1.5 Ml / Liter Water",
+                    "image": "https://th.bing.com/th/id/OIP.tgScT2pRQT9-2Rf1zqJpWgHaJQ?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "eriophyid mite": [
+                {
+                    "name": "TATA SEDNA",
+                    "usage": "1.0 - 1.5 Ml / Liter Water",
+                    "image": "https://th.bing.com/th/id/OIP.tgScT2pRQT9-2Rf1zqJpWgHaJQ?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        }
+    },
+    "Grapes": {
+        "fungicide": {
+            "Downy mildew": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            " Powdery mildew": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            "Leaf spot": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            "Anthracnose": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                },
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            " Botrytis blight": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            "Black rot": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            "Phytophthora blight": [
+                {
+                    "name": "P I Industries Ltd",
+                    "usage": "2 milli per litre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/QO/WS/MR/34798288/blue-copper-sulphate-powder-500x500.jpg"
+                }
+            ],
+            "Powdery mildew": [
+                {
+                    "name": "Armatura",
+                    "usage": "240 ML/Acre",
+                    "image": "https://th.bing.com/th/id/OIP.5v6kf9faHq-ySMn90hFhFgHaJi?w=127&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Downy Mildew": [
+                {
+                    "name": "Fantic M",
+                    "usage": "1000 gm per litre",
+                    "image": "https://th.bing.com/th/id/OIP.EYApNyvVIQRaRp6fLZiJqgHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "FMC velzo",
+                    "usage": "2 gm in 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.eMhWPpy8bEg-6swlb-UDKwHaHK?w=198&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Bacterial Blast": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Brown Rot Blossom": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Brown Spot": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Cercospora Leaf Spot": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Early Blight": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Gray Mold": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Late Blight": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leaf Spot": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Powdery Mildew": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Stem Blight": [
+                {
+                    "name": "Mastercop",
+                    "usage": "1000 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.EuY6JSxGOoXzXw0ivNUNIQHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "root rot": [
+                {
+                    "name": "Orondis",
+                    "usage": "0.7 milli per litre",
+                    "image": "https://th.bing.com/th/id/OIP.9iNHGvwcLHKIlX83qLtsUwAAAA?w=174&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "brown rot": [
+                {
+                    "name": "Orondis",
+                    "usage": "0.7 milli per litre",
+                    "image": "https://th.bing.com/th/id/OIP.9iNHGvwcLHKIlX83qLtsUwAAAA?w=174&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "pesticide": {},
+        "herbicide": {},
+        "insecticide": {}
+    },
+    "Groundnuts": {
+        "fungicide": {
+            "grain discoloration": [
+                {
+                    "name": "adama-Yaffit",
+                    "usage": "2 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.iHFdvPRqQsBmjzMo9UkXHQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "leaf spot": [
+                {
+                    "name": "adama-Yaffit",
+                    "usage": "2 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.iHFdvPRqQsBmjzMo9UkXHQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Revystar XE",
+                    "usage": "1.5 litres per hectare",
+                    "image": "https://th.bing.com/th/id/OIP.6qD4aP7lumZ8Tfgc6SZBrgHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "rust": [
+                {
+                    "name": "adama-Yaffit",
+                    "usage": "2 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.iHFdvPRqQsBmjzMo9UkXHQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "yellow rust,": [
+                {
+                    "name": "Revystar XE",
+                    "usage": "1.5 litres per hectare",
+                    "image": "https://th.bing.com/th/id/OIP.6qD4aP7lumZ8Tfgc6SZBrgHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "brown rust": [
+                {
+                    "name": "Revystar XE",
+                    "usage": "1.5 litres per hectare",
+                    "image": "https://th.bing.com/th/id/OIP.6qD4aP7lumZ8Tfgc6SZBrgHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "crown rust": [
+                {
+                    "name": "Revystar XE",
+                    "usage": "1.5 litres per hectare",
+                    "image": "https://th.bing.com/th/id/OIP.6qD4aP7lumZ8Tfgc6SZBrgHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "pesticide": {
+            "Beet armyworm": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leaf roller": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Looper": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leafworm": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Thrips": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Syngenta Simodis",
+                    "usage": "80-120 ML/Acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ_23pm3INZjbCnjqSNU4wHaF6?w=200&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Aphids": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Syngenta Simodis",
+                    "usage": "80-120 ML/Acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ_23pm3INZjbCnjqSNU4wHaF6?w=200&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "White grub": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Grey weevil": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Mealybug": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Jassids": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Whitefly": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Syngenta Simodis",
+                    "usage": "80-120 ML/Acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ_23pm3INZjbCnjqSNU4wHaF6?w=200&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Earlyshoot borer": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Termites": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leaf folder": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Green leafhopper": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Stem borer": [
+                {
+                    "name": "FMC Talstar plus",
+                    "usage": "1.3 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.zniTyPbIQ90NNHDMaV1QUAHaHa?w=170&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "leaf spot": [
+                {
+                    "name": "Ingene Intop Pro",
+                    "usage": "832 gm per 500 ml",
+                    "image": "https://th.bing.com/th/id/OIP.E1e7V-RzEjHorOwrKi14EwHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "herbicide": {
+            "grassy weeds": [
+                {
+                    "name": "IIL Hachiman",
+                    "usage": "175 ML / Acre",
+                    "image": "https://th.bing.com/th/id/OIP.OsSVcBpD0IKzFScwRVUbAgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Crowfoot grass": [
+                {
+                    "name": "IIL Hachiman",
+                    "usage": "175 ML / Acre",
+                    "image": "https://th.bing.com/th/id/OIP.OsSVcBpD0IKzFScwRVUbAgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "barnyard grass": [
+                {
+                    "name": "IIL Hachiman",
+                    "usage": "175 ML / Acre",
+                    "image": "https://th.bing.com/th/id/OIP.OsSVcBpD0IKzFScwRVUbAgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "nut grass": [
+                {
+                    "name": "IIL Hachiman",
+                    "usage": "175 ML / Acre",
+                    "image": "https://th.bing.com/th/id/OIP.OsSVcBpD0IKzFScwRVUbAgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "tropical spiderwort": [
+                {
+                    "name": "IIL Hachiman",
+                    "usage": "175 ML / Acre",
+                    "image": "https://th.bing.com/th/id/OIP.OsSVcBpD0IKzFScwRVUbAgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "false amaranth": [
+                {
+                    "name": "IIL Hachiman",
+                    "usage": "175 ML / Acre",
+                    "image": "https://th.bing.com/th/id/OIP.OsSVcBpD0IKzFScwRVUbAgAAAA?w=151&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "insecticide": {
+            "Green plant hooper": [
+                {
+                    "name": "BACF CaTnip",
+                    "usage": "40 ML per Pump",
+                    "image": "https://th.bing.com/th/id/OIP.xmu0RnrTzHWY9bCz-JUj9wHaM9?w=115&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Brown plant hooper": [
+                {
+                    "name": "BACF CaTnip",
+                    "usage": "40 ML per Pump",
+                    "image": "https://th.bing.com/th/id/OIP.xmu0RnrTzHWY9bCz-JUj9wHaM9?w=115&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        }
+    },
+    "sugarcane": {
+        "fungicide": {},
+        "pesticide": {
+            "early shoot borer": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Beet armyworm": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leaf roller": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Looper": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Leafworm": [
+                {
+                    "name": "Chico Crop Science Co., Ltd",
+                    "usage": "875 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.ZRFw-jM2ePs6bP4LtzbHYAHaHa?w=195&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "herbicide": {
+            "nutgrass": [
+                {
+                    "name": "KRISMAT",
+                    "usage": "1500 gm per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.Ll1Uu-u-2oQkPCfiP3WgNAHaHa?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "sour grass": [
+                {
+                    "name": "KRISMAT",
+                    "usage": "1500 gm per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.Ll1Uu-u-2oQkPCfiP3WgNAHaHa?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Horse pursiane": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Amaranth": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Barnyard grass": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "th (104\u00d7104) (bing.com)"
+                }
+            ],
+            "Crab grass": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Seed-under-leaf": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Para grass": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Bermuda grass": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Crowfoot Grass": [
+                {
+                    "name": "Austral",
+                    "usage": "2500 gm per 500 litre water",
+                    "image": "https://th.bing.com/th/id/OIP.oRzVc6nUix-py1e-vPL_MgHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Cyperus rotundus": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Cynodon dactylon": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Asphodelus fistulosus": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Chenopodium": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Convolvulus arvensis": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Portulaca oleracea": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Anagallis arvensis": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Chichoriumintbus": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Commelina spp": [
+                {
+                    "name": "Katyayani Metzin",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.Of4-0O4RTG5iD5pNd016KQHaIO?w=146&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "broadleaf weeds": [
+                {
+                    "name": "Tizom",
+                    "usage": "450 gm per acre",
+                    "image": "https://th.bing.com/th/id/OIP.CU0b2Rt8sbfZVzoeTVE5QAAAAA?w=110&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "narrowleaf weeds": [
+                {
+                    "name": "Tizom",
+                    "usage": "451 gm per acre",
+                    "image": "https://th.bing.com/th/id/OIP.CU0b2Rt8sbfZVzoeTVE5QAAAAA?w=110&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Crabgrass": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "Crowsfoot grass": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            " Nutgrass": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "Red pigweed": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "Tar vine": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "Cocklebur": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "Smaller stinkgrass": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "Grasslike fimbry": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "Carabao grass": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            "flowered nutsedge": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ],
+            " Tridax daisy": [
+                {
+                    "name": "Triskele",
+                    "usage": "31.23 gm per 375 litre",
+                    "image": "https://th.bing.com/th?id=OIP.1KUiHLS4RW5fAxn3R13hBwAAAA&w=80&h=80&c=1&vt=10&bgcl=e938de&r=0&o=6&dpr=1.3&pid=5.1"
+                }
+            ]
+        },
+        "insecticide": {}
+    },
+    "cotton": {
+        "fungicide": {
+            "Bacterial blight": [
+                {
+                    "name": "Kocide 3000",
+                    "usage": "500 gm per acre",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2022/2/MC/WI/TH/56013894/kocide-3000-1-1000x1000.jpg"
+                }
+            ]
+        },
+        "pesticide": {
+            "white fly": [
+                {
+                    "name": "Hercules insecticides india",
+                    "usage": "250 gm per acre",
+                    "image": "https://th.bing.com/th/id/OIP.sXiEfIvcGAVnVKpOoyHByQHaIj?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "jassid": [
+                {
+                    "name": "Hercules insecticides india",
+                    "usage": "250 gm per acre",
+                    "image": "https://th.bing.com/th/id/OIP.sXiEfIvcGAVnVKpOoyHByQHaIj?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "RONFEN",
+                    "usage": "331 ml/ acre",
+                    "image": "https://th.bing.com/th/id/OIP.96iwkXMi4BU0IHtlrucBQQHaKe?w=129&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Syngenta Simodis",
+                    "usage": "80-120 ML/Acre",
+                    "image": "OIP.YQ_23pm3INZjbCnjqSNU4wHaF6 (260\u00d7234) (bing.com)"
+                }
+            ],
+            "aphid": [
+                {
+                    "name": "Hercules insecticides india",
+                    "usage": "250 gm per acre",
+                    "image": "https://th.bing.com/th/id/OIP.sXiEfIvcGAVnVKpOoyHByQHaIj?w=140&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "RONFEN",
+                    "usage": "332 ml/ acre",
+                    "image": "https://th.bing.com/th/id/OIP.96iwkXMi4BU0IHtlrucBQQHaKe?w=129&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Whitefly": [
+                {
+                    "name": "RONFEN",
+                    "usage": "330 ml/ acre",
+                    "image": "https://th.bing.com/th/id/OIP.96iwkXMi4BU0IHtlrucBQQHaKe?w=129&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Syngenta Simodis",
+                    "usage": "80-120 ML/Acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ_23pm3INZjbCnjqSNU4wHaF6?w=200&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "thrips": [
+                {
+                    "name": "RONFEN",
+                    "usage": "333 ml/ acre",
+                    "image": "https://th.bing.com/th/id/OIP.96iwkXMi4BU0IHtlrucBQQHaKe?w=129&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                },
+                {
+                    "name": "Syngenta Simodis",
+                    "usage": "80-120 ML/Acre",
+                    "image": "https://th.bing.com/th/id/OIP.YQ_23pm3INZjbCnjqSNU4wHaF6?w=200&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "\u00a0Green plant hooper": [
+                {
+                    "name": "BACF CaTnip",
+                    "usage": "40 ML per Pump",
+                    "image": "https://th.bing.com/th/id/OIP.xmu0RnrTzHWY9bCz-JUj9wHaM9?w=115&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "\u00a0brown plant hooper": [
+                {
+                    "name": "BACF CaTnip",
+                    "usage": "40 ML per Pump",
+                    "image": "https://th.bing.com/th/id/OIP.xmu0RnrTzHWY9bCz-JUj9wHaM9?w=115&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "herbicide": {
+            "fast growth": [
+                {
+                    "name": "Syngenta Cultar",
+                    "usage": "150 ml per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.eK9vVZ0MDutHxNPsFs-vuQAAAA?w=141&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "insecticide": {
+            "Mites": [
+                {
+                    "name": "Nissorun",
+                    "usage": "200-300 gm\u00a0/\u00a0acre",
+                    "image": "https://th.bing.com/th/id/OIP.G8VbmPJiWLiu98fzC7y8DgHaHa?w=214&h=215&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Pink spotted bollworm": [
+                {
+                    "name": "Sorter",
+                    "usage": "850 gm per 600 litre",
+                    "image": "https://th.bing.com/th/id/OIP.kUSUzB9AusEiGvAIShbscQHaD4?w=341&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "white fly": [
+                {
+                    "name": "Sorter",
+                    "usage": "850 gm per 600 litre",
+                    "image": "https://th.bing.com/th/id/OIP.kUSUzB9AusEiGvAIShbscQHaD4?w=341&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "jassid": [
+                {
+                    "name": "Sorter",
+                    "usage": "850 gm per 600 litre",
+                    "image": "https://th.bing.com/th/id/OIP.kUSUzB9AusEiGvAIShbscQHaD4?w=341&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "aphid": [
+                {
+                    "name": "Sorter",
+                    "usage": "850 gm per 600 litre",
+                    "image": "https://th.bing.com/th/id/OIP.kUSUzB9AusEiGvAIShbscQHaD4?w=341&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "mealy bugs": [
+                {
+                    "name": "PYCLOME",
+                    "usage": "500-600 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.CI2P75RJIZU2Zk7Ck6h7SQHaJQ?w=137&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        }
+    },
+    "onion": {
+        "fungicide": {
+            "Powdery Mildew": [
+                {
+                    "name": "Noriko T3",
+                    "usage": "250 ml per 500 litre",
+                    "image": "https://www.bing.com/th?id=OIP.nmIUid0nFjCLJuFAb327swHaHa&w=172&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                }
+            ],
+            "Anthracnose": [
+                {
+                    "name": "Noriko T3",
+                    "usage": "250 ml per 500 litre",
+                    "image": "https://www.bing.com/th?id=OIP.nmIUid0nFjCLJuFAb327swHaHa&w=172&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                }
+            ]
+        },
+        "pesticide": {},
+        "herbicide": {
+            "Narrow Leaf Weeds ": [
+                {
+                    "name": "ONEKIL",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.lA5O_HkPbe5QQD8ywWMTrwHaHa?w=177&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            " Broad Leaf Weeds": [
+                {
+                    "name": "ONEKIL",
+                    "usage": "400 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.lA5O_HkPbe5QQD8ywWMTrwHaHa?w=177&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "insecticide": {
+            "Thrips": [
+                {
+                    "name": "Ahead",
+                    "usage": "250 ml per 500 litre",
+                    "image": "https://parijatagrochemicals.com/wp-content/uploads/2016/10/Ahead-100g.png"
+                }
+            ],
+            "Purple Blotch": [
+                {
+                    "name": "Parizox-T2",
+                    "usage": "250 ml per 500 litre",
+                    "image": "https://parijatagrochemicals.com/wp-content/uploads/2019/10/Parizox-T2_new-1.png"
+                }
+            ]
+        }
+    },
+    "Rice": {
+        "fungicide": {
+            "Blast": [
+                {
+                    "name": "Kitazin",
+                    "usage": "3 kg per acre",
+                    "image": "https://th.bing.com/th/id/OIP.3OcuLVi1X-bpulnS6CAb8gAAAA?w=136&h=148&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Sheath blight": [
+                {
+                    "name": "Kitazin",
+                    "usage": "4 kg per acre",
+                    "image": "https://th.bing.com/th/id/OIP.3OcuLVi1X-bpulnS6CAb8gAAAA?w=136&h=148&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "blast": [
+                {
+                    "name": "Blasil",
+                    "usage": "1000 milli per 500 litre",
+                    "image": "https://th.bing.com/th/id/OIP.cq8hR1RSMwDKDVAoYS3CgAHaSU?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "grain discoloration": [
+                {
+                    "name": "adama-Yaffit",
+                    "usage": "2 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.iHFdvPRqQsBmjzMo9UkXHQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "leaf spot": [
+                {
+                    "name": "adama-Yaffit",
+                    "usage": "2 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.iHFdvPRqQsBmjzMo9UkXHQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "rust": [
+                {
+                    "name": "adama-Yaffit",
+                    "usage": "2 ml per litre",
+                    "image": "https://th.bing.com/th/id/OIP.iHFdvPRqQsBmjzMo9UkXHQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "sheath blight": [
+                {
+                    "name": "Juniper",
+                    "usage": "600 g/acre",
+                    "image": "https://th.bing.com/th/id/OIP.1rVFbzbNNsBqDokGL0_AVAHaHe?w=179&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Brown leaf spot\u00a0": [
+                {
+                    "name": "Juniper",
+                    "usage": "601 g/acre",
+                    "image": "https://th.bing.com/th/id/OIP.1rVFbzbNNsBqDokGL0_AVAHaHe?w=179&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.8"
+                }
+            ],
+            "Crabgrass": [
+                {
+                    "name": "RICEBEAUX",
+                    "usage": "3 litre per acre before grass is grown",
+                    "image": "https://th.bing.com/th/id/OIP.6qe1jU_nHPSUHY3o2San8gAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "nutgrass": [
+                {
+                    "name": "RICEBEAUX",
+                    "usage": "3 litre per acre before grass is grown",
+                    "image": "https://th.bing.com/th/id/OIP.6qe1jU_nHPSUHY3o2San8gAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Barnyardgrass": [
+                {
+                    "name": "RICEBEAUX",
+                    "usage": "3 litre per acre before grass is grown",
+                    "image": "https://th.bing.com/th/id/OIP.6qe1jU_nHPSUHY3o2San8gAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Yellow nutsedge": [
+                {
+                    "name": "RICEBEAUX",
+                    "usage": "3 litre per acre before grass is grown",
+                    "image": "https://th.bing.com/th/id/OIP.6qe1jU_nHPSUHY3o2San8gAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Rice flatsedge": [
+                {
+                    "name": "RICEBEAUX",
+                    "usage": "3 litre per acre before grass is grown",
+                    "image": "https://th.bing.com/th/id/OIP.6qe1jU_nHPSUHY3o2San8gAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Junglerice": [
+                {
+                    "name": "RICEBEAUX",
+                    "usage": "3 litre per acre before grass is grown",
+                    "image": "https://th.bing.com/th/id/OIP.6qe1jU_nHPSUHY3o2San8gAAAA?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        },
+        "pesticide": {},
+        "herbicide": {},
+        "insecticide": {
+            "stem borer": [
+                {
+                    "name": "Barroz",
+                    "usage": "3 Kgs per acre",
+                    "image": "https://th.bing.com/th/id/OIP.uT4_Bn9BoYiMuAPUwqSg_gHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "leaf folders": [
+                {
+                    "name": "PI Vibrant",
+                    "usage": "12.5 kg per Hectare.",
+                    "image": "https://th.bing.com/th/id/OIP.ePZMCcQ0HsRkLtPmgOZztQHaHa?w=156&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "BPH": [
+                {
+                    "name": "Imagine",
+                    "usage": "400 ml/acre",
+                    "image": "https://th.bing.com/th/id/OIP.OF_hKUr2927FHhwZRaBXJgHaHa?w=197&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "Brown plant hopper": [
+                {
+                    "name": "Defend",
+                    "usage": "94 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.LfwdKe3NCxo0LxFiCo1pnwAAAA?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ],
+            "White plant hopper": [
+                {
+                    "name": "Defend",
+                    "usage": "94 ml per acre",
+                    "image": "https://th.bing.com/th/id/OIP.LfwdKe3NCxo0LxFiCo1pnwAAAA?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                }
+            ]
+        }
+    }
+}

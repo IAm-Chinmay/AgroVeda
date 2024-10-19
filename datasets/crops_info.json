@@ -1,0 +1,754 @@
+{
+  "maize": {
+    "crop_name": "Maize",
+    "img": "https://www.harvestplus.org/wp-content/uploads/2021/08/Orange-maize-2.png",
+    "market_price": "₹2600/Quintal",
+    "procedure": {
+      "video": "DCQEEYNGBWQ",
+      "steps": [
+        {
+          "title": " Preparing the Land",
+          "desc": "Land preparation during the dry season ensures all the weeds dry up after plowing and harrowing. The high temperatures ensures some if not all of the weeds are destroyed and cannot germinate."
+        },
+        {
+          "title": " Seed Selection and Planting",
+          "desc": "Choose high-quality maize seeds from a reputable supplier.  Where possible buy directly from the manufacturers or accredited dealers. The selection should consider factors such as yield potential, disease resistance, and adaptability to your region’s climate."
+        },
+        {
+          "title": "Fertilization",
+          "desc": "Apply a balanced fertilizer, such as a 10-10-10 formulation, during planting or as a top dressing later in the growing season. Follow the recommended application rates to avoid nutrient deficiencies or excesses."
+        },
+        {
+          "title": "Irrigation and Weed Control",
+          "desc": "Maize thrives in moist soil conditions, so proper irrigation is vital. Irrigate regularly, especially during dry spells, to ensure the plants receive adequate water."
+        },
+        {
+          "title": "Pest and Disease Management",
+          "desc": "Protecting your maize crop from pests and diseases is crucial for a successful harvest. Monitor your field regularly for signs of pests such as cutworms, armyworms, and stalk borers."
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Harvesting time depends on the maize variety and prevailing weather conditions. Monitor the crop closely for signs of maturity, such as dried husks and kernels that have hardened."
+        },
+        {
+          "title": "Drying and Storage",
+          "desc": " Properly drying and storing maize is essential to prevent post-harvest losses. Spread the harvested cobs on a clean, dry surface for air drying. "
+        }
+      ]
+    }
+  },
+  "rice": {
+    "crop_name": "Rice",
+    "img": "https://www.health.com/thmb/a8GxwWgmB5KpQW8SfW6VA7UFwaI=/722x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1734160670-0157c2daf8e841d6a783b38aedc51aa8.jpg",
+    "market_price": "₹2440/Quintal",
+    "procedure": {
+      "video": "FW_bw9jdrlQ",
+      "steps": [
+        {
+          "title": "choose a location with flat terrain and enough water resources. The soil needs to be both nutrient-rich and well-drained.",
+          "desc": null
+        },
+        {
+          "title": "prepare the land by getting rid of any rocks, trash, and weeds in the rice growing field. Plowing and leveling will provide a uniformly smooth and flat land surface. Amend the soil with organic matter and fertilizers as you see fit;",
+          "desc": null
+        },
+        {
+          "title": "choose premium rice seeds for planting, with localized breeding for high yield and disease resistance;",
+          "desc": null
+        },
+        {
+          "title": "guard the seeds against diseases and pests by using fungicides and pesticides;",
+          "desc": null
+        },
+        {
+          "title": "plant seeds with a mechanical planter to ensure uniform spacing. The ideal depth for sowing seeds is about an inch (2–3 cm), and the recommended planting distance between rows of rice is 8–10 inches (20–25 cm).",
+          "desc": null
+        }
+      ]
+    }
+  },
+  "chickpea": {
+    "crop_name": "Chickpea",
+    "img": "https://cdn.britannica.com/65/176565-050-D6AB65D7/chickpeas-garbanzos.jpg",
+    "market_price": "₹4257/Quintal",
+    "procedure": {
+      "video": "9Um523WIFso",
+      "steps": [
+        {
+          "title": "Germinate the chickpea seeds 4 to 5 weeks before the last frost.",
+          "desc": null
+        },
+        {
+          "title": "Plant the seeds indoors about 4 weeks before the last frost.",
+          "desc": null
+        },
+        {
+          "title": "Give the seeds 6 hours of direct sunlight daily and water them weekly.",
+          "desc": null
+        },
+        {
+          "title": "Fill your garden with nitrogen-low well-draining soil and compost.",
+          "desc": null
+        },
+        {
+          "title": "Transplant the seedlings after they frost when they're 4 to 5 in (10 to 12.7 cm) tall.",
+          "desc": null
+        }
+      ]
+    }
+  },
+  "kidneybeans": {
+    "crop_name": "Kidney Beans",
+    "img": "https://www.heynutritionlady.com/wp-content/uploads/2023/05/How_to_Cook_Kidney_Beans-SQ.jpg",
+    "market_price": "₹4500/Quintal",
+    "procedure": {
+      "video": "sxS9ad32f4M",
+      "steps": [
+        {
+          "title": "Buy your seeds",
+          "desc": "Purchase kidney bean seeds to plant in the ground. Rather than transplanting the plants, you want to grow them from seedlings. Bush beans and pole beans sprout from the same kinds of seeds."
+        },
+        {
+          "title": "Choose a sunny spot in your garden",
+          "desc": "Pick a spot in your garden that gets plenty of direct sunlight, unobstructed by other plants or shaded areas."
+        },
+        {
+          "title": " Prepare your soil ",
+          "desc": "You want to have loose, well-draining soil with a pH between 6.0 and 7.0 because the beans don’t respond well to high levels of moisture."
+        },
+        {
+          "title": "Choose your support",
+          "desc": "Two common methods of growing kidney beans are in a planter or in the ground. If you’re planting your seeds in the ground, you may want to use a trellis or pole to support your plant as it grows vertically. If you’re not planting in your garden, you can use a planter to cultivate a small bean bush."
+        },
+        {
+          "title": " Dig your holes",
+          "desc": "If you are planting pole beans, create a series of one-to-two-inch deep holes, spacing them about four to six inches apart."
+        },
+        {
+          "title": "Direct sow your seeds",
+          "desc": "Like green beans and black beans, kidney beans have shallow roots, so it’s best to sow them directly into your soil rather than starting them in containers and transplanting them later."
+        },
+        {
+          "title": "Water your bean seeds",
+          "desc": " Water your bean seeds whenever the soil around your plant appears dry."
+        },
+        {
+          "title": "Protect your beans",
+          "desc": " Protect your bean plants from weeds by pulling them out by hand. You can also surround the plant with a small circle of mulch to protect weeds from growing into it."
+        }
+      ]
+    }
+  },
+  "pigeonpeas": {
+    "crop_name": "Pigeon Peas",
+    "img": "https://5.imimg.com/data5/SELLER/Default/2023/10/351917222/BG/VF/FL/5933357/pigeon-pea-seeds.jpg",
+    "market_price": "₹9650/Quintal",
+    "procedure": {
+      "video": "W0SzlpA2Axs",
+      "steps": [
+        {
+          "title": "When direct sowing pigeon peas in the garden, plant seeds 3 to 4 inches apart in rows spaced 40 inches from each other, and bury the seeds about 3/4 to 1 inch deep. ",
+          "desc": null
+        },
+        {
+          "title": " Alternatively, you can plant three or four pigeon pea seeds together in hills spaced 4 to 5 feet apart. ",
+          "desc": null
+        },
+        {
+          "title": "After pigeon peas sprout their first sets of true leaves, thin the seedlings out so they’re 1 foot apart or 3 feet apart if you are growing the plants as perennials.",
+          "desc": null
+        },
+        {
+          "title": "To extend the growing season, start pigeon pea seeds indoors several weeks before the last frost date in spring. For best results, start the seeds in potting soil.",
+          "desc": null
+        }
+      ]
+    }
+  },
+  "mothbeans": {
+    "crop_name": "mothbeans",
+    "img": "https://nishamadhulika.com/imgpst/featured/moth-beans.jpg",
+    "market_price": "₹6700/Quintal",
+    "procedure": {
+      "video": "fJrgeh7qeaY",
+      "steps": [
+        {
+          "title": "Soil Requirements",
+          "desc": "On plain lands and dunes it is cultivated as sole, mix and intercrop and To reduce the losses of soil moisture, the crops can immediately be sown after rain on light soil dunes."
+        },
+        {
+          "title": "Seed rate & Sowing",
+          "desc": "For grain, the required seed rate is 10-15 kg/ha and For mixed crop, 4-5 kg of seed is required."
+        },
+        {
+          "title": "Irrigation",
+          "desc": "During the flowering stage, it requires water and developing stages of pod will be very good for the plants."
+        },
+        {
+          "title": "Fertilizers",
+          "desc": "They do not require additional fertilizer and They are normally grown on abandoned and less managed soils which are naturally poor in physical properties defective in organic matter."
+        },
+        {
+          "title": "Harvesting & Storage",
+          "desc": "From planting to harvesting, Moth bean plants take around 75-90 days and For threshing, before harvesting the whole plant should be matured and dry."
+        }
+      ]
+    }
+  },
+  "mungbean": {
+    "crop_name": "mungbean",
+    "img": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/324156_2200-800x1200.jpg",
+    "market_price": "₹7488.94/Quintal",
+    "procedure": {
+      "video": "W1hUVi_4U4I",
+      "steps": [
+        {
+          "title": "Soak the mung bean seeds in a cup of water for two to four hours. Put a few tablespoons of an inoculant formulated for peas in a resealable plastic bag.",
+          "desc": null
+        },
+        {
+          "title": "Loosen the top 6 inches of the planting site's soil and remove any rocks or pebbles. Sprinkle 4 inches of compost on top, applying 1.2 cubic yards of compost per 100 square feet.",
+          "desc": null
+        },
+        {
+          "title": "Water the planting site's soil until it is evenly moist. Plant seed 1 to 2 inches deep in the damp soil. Sow the seeds in 30-inch rows, spacing seeds two inches apart.",
+          "desc": null
+        },
+        {
+          "title": "Keep the soil evenly moist and free from weeds until germination. Water at a rate of 2 to 3 inches per week once the beans are established. ",
+          "desc": null
+        },
+        {
+          "title": "Fertilizer is only needed if you didn’t add quality compost to the soil. The best fertilizer for mung beans is low-nitrogen, such as a 5-10-10.",
+          "desc": null
+        },
+        {
+          "title": "The time to harvest is around 90 to 120 days from planting. You’ll know the plant is ready for harvest when the beans change from green to a yellowish-brown.",
+          "desc": null
+        }
+      ]
+    }
+  },
+  "blackgram": {
+    "crop_name": "blackgram",
+    "img": "https://www.netmeds.com/images/cms/wysiwyg/blog/2019/09/BlackGram_big_1.jpg",
+    "market_price": "₹7547/Quintal",
+    "procedure": {
+      "video": "Q33rH3i891M",
+      "steps": [
+        {
+          "title": "Land Preparation",
+          "desc": "Plough the land during summer to conserve the moisture, destroy weeds and break the clods. Repeated plough to get fine tilth taking advantages of soil moisture availability."
+        },
+        {
+          "title": "Seed and seed treatment",
+          "desc": "Use of certified seeds is recommended Seed Rate : 20 kg / ha"
+        },
+        {
+          "title": "Bio fertilizer seed treatment",
+          "desc": "Treat the seeds required for one hectare with 600 g each of biofertilizers viz., Rhizobium and Phosphobacteria, using rice gruel, shade dry for 30 minutes before sowing."
+        },
+        {
+          "title": "Sowing",
+          "desc": "Sow the seeds by seed drill or dibbled at 25 x 10 cm Spacing. Use of mechanised seed drills is also recommended"
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Harvesting the plants after attaining physiological maturityie.,Grain colour changing from green to black and leaves turn yellow colour and starts shedding of leaves or 80% of the pods are matured."
+        }
+      ]
+    }
+  },
+  "lentil": {
+    "crop_name": "lentil",
+    "img": "https://cdn.apartmenttherapy.info/image/upload/v1704924661/k/Design/2024/01-2024/types-of-lentils/Types-Of-lentils_IG.jpg",
+    "market_price": "₹7450/Quintal",
+    "procedure": {
+      "video": "Mi_Ys_DaYpw",
+      "steps": [
+        {
+          "title": "Preparation of Land",
+          "desc": "First plough should be done by disc harrow and subsequent 2 – 3 plough by local plough followed by leveler."
+        },
+        {
+          "title": "Time of Sowing",
+          "desc": "For timely sowing mid October to mid November and in case of late sowing December first week is suitable time. Sowing of Masoor by Pant Nagar Zero Till Seed Drill is more beneficial."
+        },
+        {
+          "title": "Seed Rate",
+          "desc": "For timely sowing 30-40 kg and late sowing 40-50 kg seed is sufficient."
+        },
+        {
+          "title": "Seed Treatment",
+          "desc": "Sow 10 kg seed of masoor after treatment with 1 packet of rhizobium leguminoserum culture especially in those field in which masoor has not been sown earlier. Treat the seed after chemical treatment.PSB must be used."
+        },
+        {
+          "title": "Fertilizer",
+          "desc": "Use 20 kg nitrogen, 60 kg phosphorous,20 kg potash and 20 kg sulphur per hectare in normal sowing. In Uttera method of sowing, top dress with 20 kg nitrogen after harvesting of paddy and spray 30 kg phosphorous twice at the time of flowering and pod formation."
+        },
+        {
+          "title": "Irrigation",
+          "desc": "Apply first irrigation before flowering. If there is no rain in the crop sown in paddy field, apply second irrigation at the time of pod formation."
+        }
+      ]
+    }
+  },
+  "pomegranate": {
+    "crop_name": "pomegranate",
+    "img": "https://s3.ap-south-1.amazonaws.com/diingdong/1592552737_25690_original.jpg",
+    "market_price": "₹7000/Quintal",
+    "procedure": {
+      "video": "rdUgNBXO38A",
+      "steps": [
+        {
+          "title": "Land Preparation",
+          "desc": "Land is prepared by ploughing, harrowing, leveling and removing weeds."
+        },
+        {
+          "title": "Planting Material",
+          "desc": "Pomegranate is propagated vegetatively by cuttings, air layering or gootee."
+        },
+        {
+          "title": "Spacing",
+          "desc": "High density planting is adopted in temperate regions. A spacing of 5-6 m. in northern India and also in the plains of Deccan plateau is usually followed.  High density planting with a spacing gives 2-2.5 times more yield than that obtained when the normal planting distance of 5 X 5 m. is adopted. Farmers have adopted a spacing of 2.5 X 4.5 m. Closer spacing increases disease and pest incidence."
+        },
+        {
+          "title": "Planting Method",
+          "desc": "Square system of planting is mostly adopted. Planting distance is decided on the basis of soil type and climate. A spacing of 4-5 m. on marginal and very light soils is recommended."
+        },
+        {
+          "title": "Irrigation",
+          "desc": "First irrigation is provided in case of mrig bahar crop in the middle of May followed by regular irrigation till the monsoon sets in. Weekly irrigation in summers and that during winters at fortnightly intervals is recommended. The check basin system of irrigation is usually followed."
+        },
+        {
+          "title": "Drip Irrigation",
+          "desc": "The average annual water requirement through drip irrigation is 20 cm. Drip irrigation helps to save 44% on irrigation and 64% when sugarcane trash mulch is used. It also helps to increase the yield by 30-35%."
+        },
+        {
+          "title": " Harvesting  and Yield",
+          "desc": "Pomegranate being a non-climacteric fruit should be picked when fully ripe. Pomegranate plants take 4-5 years to come into bearing.  Harvesting of immature or over mature fruits affects the quality of the fruits. The fruits become ready for picking 120-130 days after fruit set. The calyx at the distal end of the fruit gets closed on maturity. At maturity, the fruits turn yellowish-red and get suppressed on sides."
+        }
+      ]
+    }
+  },
+  "banana": {
+    "crop_name": "banana",
+    "img": "https://m.media-amazon.com/images/I/51ebZJ+DR4L.jpg",
+    "market_price": "₹3700/Quintal",
+    "procedure": {
+      "video": "If9U6ME3ycQ",
+      "steps": [
+        {
+          "title": "Soil and Climate ",
+          "desc": "Well-drained loamy soils are suitable for banana cultivation. Alkaline and saline soils should be avoided. "
+        },
+        {
+          "title": "Field preparation ",
+          "desc": "The land is prepared by plowing twice and harrowing thrice. Leveling is done by tractor after harrowing. "
+        },
+        {
+          "title": "Planting",
+          "desc": "The time of planting of bananas depends solely on climatic conditions and the availability of water.The spacing adopted by organic banana cultivators is 1.5 m x 1.5m and 1.5 m x 1.8 m. "
+        },
+        {
+          "title": "Irrigation",
+          "desc": "The plants need to be irrigated immediately after planting. About 30-40 weekly irrigations are required. When summer temperature crosses 37.5 0C, irrigation on every 3rd day is essential."
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Bananas are ready to harvest when the fingers are yellow and the peel is slightly soft. The best time to harvest is in the morning when the fruit is cool."
+        }
+      ]
+    }
+  },
+  "mango": {
+    "crop_name": "mango",
+    "img": "https://daganghalal.blob.core.windows.net/28276/Product/1000x1000__mango-1642758017688.jpeg",
+    "market_price": "₹11000/Quintal",
+    "procedure": {
+      "video": "0iAZa5bHQj0",
+      "steps": [
+        {
+          "title": "Land Preparation",
+          "desc": "Choose a well-drained area with good sunlight exposure for your mango orchard.Debris, rocks, and weeds must be removed from the land.Depending on the outcomes of the test, add any necessary soil amendments."
+        },
+        {
+          "title": "Planting",
+          "desc": "Prepare pits or trenches in the field before the rainy season.Plant grafted mango saplings in the pits or trenches at a spacing of 10-15 meters between trees."
+        },
+        {
+          "title": "Irrigation",
+          "desc": "Provide regular and adequate irrigation, especially during the dry periods and the first few years after planting."
+        },
+        {
+          "title": "Mulching and Weed Control:",
+          "desc": "Apply a layer of organic mulch around the base of the trees to conserve moisture, suppress weeds, and improve soil fertility."
+        },
+        {
+          "title": "Fertilization",
+          "desc": "Follow a nutrient management plan based on soil test results and the specific nutrient requirements of mango trees."
+        },
+        {
+          "title": "Pruning and Training",
+          "desc": "Prune the young trees to establish a well-balanced framework of branches.Remove dead, damaged, or diseased branches regularly."
+        },
+        {
+          "title": "Harvesting and Post-Harvest Handling:",
+          "desc": "Monitor the fruit's maturity by observing size, color, and firmness.Harvest mature mangoes carefully to avoid damage."
+        }
+      ]
+    }
+  },
+  "grapes": {
+    "crop_name": "grapes",
+    "img": "https://cdn.pixabay.com/photo/2021/01/05/05/30/grapes-5889697_640.jpg",
+    "market_price": "₹11477.78/Quintal",
+    "procedure": {
+      "video": "UxXl9sVf1lg",
+      "steps": [
+        {
+          "title": "Soil Preparation",
+          "desc": "The soil for grape cultivation should be well-drained, fertile, and rich in organic matter. Before planting, the soil should be thoroughly prepared by removing any weeds, rocks, or debris."
+        },
+        {
+          "title": "Planting",
+          "desc": "Grapevines can be planted in the fall or spring. Before planting, it is important to soak the roots in water for a few hours. The planting hole should be at least twice the size of the root ball, and the soil should be packed firmly around the roots. "
+        },
+        {
+          "title": "Irrigation",
+          "desc": "Grapes require regular and adequate watering, especially during the growing season. In Maharashtra, drip irrigation is the most efficient method of irrigation for grape cultivation."
+        },
+        {
+          "title": "Pest and Disease Management",
+          "desc": "Organic grape cultivation in Maharashtra requires an integrated pest management approach that includes the use of natural predators, such as ladybugs, lacewings, and parasitic wasps, to control pests. The use of synthetic pesticides should be avoided, as they can harm beneficial insects and pollute the environment. "
+        },
+        {
+          "title": "Pruning",
+          "desc": "Pruning is an essential part of grapevine management, and it helps to improve fruit quality and yield. Grapevines should be pruned in the winter or early spring, before new growth begins. The aim of pruning is to remove dead, diseased, or damaged wood, and to shape the vine for optimal fruit production. "
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Grapes are ready for harvesting when they reach full maturity and are fully colored. The harvesting time depends on the cultivar and the growing conditions, but it usually falls between August and October."
+        }
+      ]
+    }
+  },
+  "watermelon": {
+    "crop_name": "watermelon",
+    "img": "https://i.pinimg.com/originals/f0/63/c8/f063c874ed77d47c58bcf1e33a03c9cf.jpg",
+    "market_price": "₹900/Quintal",
+    "procedure": {
+      "video": "-2Zi3IS--z4",
+      "steps": [
+        {
+          "title": "Soil Preparation",
+          "desc": "The soil for watermelon cultivation should be well-drained and fertile. The pH of the soil should be between 6.0 and 7.0. If the soil is not well-drained, it can lead to root rot and other problems. The soil should be amended with compost or manure before planting."
+        },
+        {
+          "title": "Planting",
+          "desc": "Watermelon seeds can be planted directly in the ground or planted in pots indoors. If planted directly in the ground, the seeds should be planted 1-2 inches deep and 2-3 feet apart."
+        },
+        {
+          "title": "Fertilization",
+          "desc": "Watermelons require a lot of nitrogen, phosphorus, and potassium. They should be fertilized every 2-3 weeks with a balanced fertilizer. A good fertilizer for watermelons is 10-20-10."
+        },
+        {
+          "title": "Watering",
+          "desc": "Watermelons need regular watering, especially during the flowering and fruiting stages. The soil should be kept moist, but not soggy."
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Watermelons are ready to harvest when they are fully ripe. The rind will be hard and the flesh will be a deep, uniform color. To check for ripeness, thump the watermelon. A ripe watermelon will have a hollow sound."
+        }
+      ]
+    }
+  },
+  "muskmelon": {
+    "crop_name": "muskmelon",
+    "img": "https://st5.depositphotos.com/5089271/63218/i/450/depositphotos_632189672-stock-photo-cantaloupe-melon-isolated-white-background.jpg",
+    "market_price": "₹3728.57/Quintal",
+    "procedure": {
+      "video": "K97eQ398bXE",
+      "steps": [
+        {
+          "title": "Soil",
+          "desc": "It grows well in deep fertile and well-drained soil. It gives best result when grown on well drained loam soil. Soil having poor drainage capacity is not suited for Muskmelon cultivation. "
+        },
+        {
+          "title": "Land Preparation",
+          "desc": "Plough land and bring to fine tilth. In North India, sowing is done in middle of February month. In North east and west India sowing is done during November to January."
+        },
+        {
+          "title": "Sowing",
+          "desc": "Middle of February is optimum time for muskmelon cultivation.For Sowing dibbling method and transplanting methods can be used."
+        },
+        {
+          "title": "Seed",
+          "desc": "For sowing in one acre land, seed rate of 400gm seeds are required."
+        },
+        {
+          "title": "Weed Control",
+          "desc": "Keep bed weed free during early stage of growth. In absence of proper control measures, weed can cause yield loss of 30%. 15-20days after sowing carry out intercultural operations. Depending upon severity and intensity of weeds, two to three weeding are required."
+        },
+        {
+          "title": "Irrigation",
+          "desc": "Apply irrigation, every week in summer season. At time of maturity give irrigation only when needed. Avoid over flooding in muskmelon field. During application of irrigation, do not wet the vines or vegetative parts, especially during flowering and fruit-set. "
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Harvesting of Haramadhu should be done when fruits turn to yellow. Harvest other variety depending upon market distance. "
+        }
+      ]
+    }
+  },
+  "apple": {
+    "crop_name": "apple",
+    "img": "https://st2.depositphotos.com/4431055/11856/i/450/depositphotos_118569224-stock-photo-red-apple-isolated.jpg",
+    "market_price": "₹10024/Quintal",
+    "procedure": {
+      "video": "syDRoJ1PdYI",
+      "steps": [
+        {
+          "title": "Soil Requirements",
+          "desc": "The soils rich in organic matter, have a pH of around 6.5, and have good drainage is best for apple farming"
+        },
+        {
+          "title": "Planting Method",
+          "desc": "4 different categories of planting density are implemented viz. low (less than 120 apple plants per acre), moderate (120 to 200 apple plants per acre), high (200 to 520 plants per acre) and ultra-high density (more than 520 plants per acre. "
+        },
+        {
+          "title": "Fertilisation and Applications of Manures ",
+          "desc": "Farm Yard Manure (FMY) at 10 kg each year age of the tree is applied alongside different composts. The proportion of K, P, and N which is applied in a plantation of ideal richness is 70:35:70 grams each year (time of the tree).  "
+        },
+        {
+          "title": "Weed Management ",
+          "desc": " Good weed control during the first 3-4 months of a growing season is the most critical period of the season. In later summer months if weed control is poorer it is not detrimental to the trees. "
+        },
+        {
+          "title": "Irrigation",
+          "desc": "Apple trees are particularly sensitive to low soil moisture. Water stress during the growing season reduces the number and size of fruits and increases June drop. The success of apple largely depends on the uniform distribution of rain during the year in case of dry spells during the critical period’s supplementary irrigation should be provided. "
+        },
+        {
+          "title": "Training and Pruning",
+          "desc": "The apple plants are trained as per the growth habit and vigor of the rootstocks. The standard apple trees are trained on a modified central leader system to receive proper light.  "
+        },
+        {
+          "title": "Harvesting",
+          "desc": "The amount of apple productivity varies from one elevation to another. An Apple tree’s life can be reached out up to even 40 years contingent on the climatic condition. The Apple fruits are normally reaped before they are completely ripe. "
+        }
+      ]
+    }
+  },
+  "orange": {
+    "crop_name": "orange",
+    "img": "https://t4.ftcdn.net/jpg/04/20/70/97/240_F_420709714_6WRLa14NhZ9gKE1UAjJJsxDld5WOMliJ.jpg",
+    "market_price": "₹5000/Quintal",
+    "procedure": {
+      "video": "pmhVPchSmvE",
+      "steps": [
+        {
+          "title": "Farm Planning and Site Selection",
+          "desc": "Begin by developing a farm plan that outlines your goals, resources, and management strategies for orange farming. Choose a suitable site for your orange farm, considering factors such as climate, soil quality, rainfall patterns, altitude, and access to markets and infrastructure. "
+        },
+        {
+          "title": "Land Preparation and Planting",
+          "desc": "Prepare the land by clearing vegetation, removing weeds, and cultivating the soil to a depth of 30-50 centimeters to loosen the soil and improve drainage. Amend the soil with organic matter such as compost or aged manure to enhance fertility, structure, and water retention."
+        },
+        {
+          "title": "Irrigation and Water Management",
+          "desc": "Manage irrigation and water resources to meet the moisture requirements of orange trees, especially during critical growth stages such as flowering, fruit set, and fruit development. Install irrigation systems such as drip irrigation or micro-sprinklers to deliver water efficiently and minimize water wastage. "
+        },
+        {
+          "title": "Fertilization and Soil Management",
+          "desc": "Manage soil fertility through proper fertilization and organic matter management to support healthy orange tree growth and fruit production. Conduct a soil test to determine nutrient deficiencies and apply fertilizers accordingly, focusing on balanced nutrient ratios with emphasis on nitrogen, phosphorus, and potassium."
+        },
+        {
+          "title": "Pruning and Training",
+          "desc": "Prune orange trees regularly to maintain a balanced canopy, promote air circulation, and facilitate light penetration, which helps reduce disease pressure and improve fruit quality."
+        },
+        {
+          "title": "Harvesting ",
+          "desc": "Harvest oranges when they reach full color, flavor, and size, and are easy to detach from the tree with a gentle twist or pull. Use pruning shears or harvesting tools to cut the stems, leaving a short stub attached to the fruit."
+        }
+      ]
+    }
+  },
+  "papaya": {
+    "crop_name": "papaya",
+    "img": "https://t4.ftcdn.net/jpg/08/44/14/99/240_F_844149979_sJKau85aDIuQLR09JYnHlbtHpAXucYs3.jpg",
+    "market_price": "₹1000/Quintal",
+    "procedure": {
+      "video": "ulpw9ytIgTU",
+      "steps": [
+        {
+          "title": "Land Preparation and Planting",
+          "desc": "The land should be ploughed twice for proper pulverization and canals could be built for proper drainage. The organic manure applied as a basal dose should be properly spread and incorporated into the soil during preparation of the land for sowing. "
+        },
+        {
+          "title": "Manure and Fertilizers Requirements",
+          "desc": "Fertilizing the papaya crop is essential for a satisfactory production. It is observed that 250 g of nitrogen, 250 g phosphorous and 500 g of potash supplied to the papaya plant in 6 equal parts over a period of one year has delivered better results. "
+        },
+        {
+          "title": "Irrigation Requirements",
+          "desc": "The papaya plants are irrigated based on the soil variety and the weather conditions of the region. In the first year of planting protective irrigation is given. In the second year irrigation is provided on a fortnightly basis during winter and in 10 days interval during the summer."
+        },
+        {
+          "title": "Pest and Disease Control",
+          "desc": "The commonly found pests on papaya plants are fruit flies, aphids, red spider mite, stem borer, gray weevil, snail and slugs and grasshoppers. They are all controlled by spraying prophylactic substances such as 0.3% of dimethoate and 0.05% of methyl demeton."
+        },
+        {
+          "title": "Intercultural Activity",
+          "desc": "Removal of weeds is highly essential and it is done either by using chemicals or by hand. Weeds are controlled by the application of generic glyphosate substance for about 6 times in a year. When the plants are young then hand weeding is done so that plants are not destroyed by the herbicides."
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Papaya plants give an economical yield in 3 or 4 years time. Generally the indication of harvest is the change of color of the fruit. Little yellow color of the fruit is the sign that the fruit is ready for harvest. The papaya plant bears fruit from 9 to 14 months of planting. "
+        }
+      ]
+    }
+  },
+  "coconut": {
+    "crop_name": "coconut",
+    "img": "https://www.shutterstock.com/image-photo/coconut-juice-half-fruit-water-600nw-2025220052.jpg",
+    "market_price": "₹1900/Quintal",
+    "procedure": {
+      "video": "LVe8qCyG2PQ",
+      "steps": [
+        {
+          "title": "Soil Type",
+          "desc": "Sandy loam or well-drained coastal soils are ideal.Easy access to water is crucial. Ponds, wells, or a reliable irrigation system are your best bets."
+        },
+        {
+          "title": " Land Preparation and Planting",
+          "desc": "Proper spacing is critical for healthy growth and optimal yield. The recommended spacing typically falls between 7.5 meters to 9 meters between each palm. Digging large pits is essential before planting. The standard size of the pits should be 1 meter x 1 meter x 1 meter."
+        },
+        {
+          "title": "Irrigation",
+          "desc": "During the dry season, your coconut palms will need water every 4-7 days, depending on the heat. You can avoid watering during the rainy season as they can get their fill from natural rainfall."
+        },
+        {
+          "title": "Weed Control & Management",
+          "desc": "Weeds fight with your coconut trees for water and nutrients. Regular weeding keeps them in check, allowing your palms to flourish."
+        },
+        {
+          "title": "Harvesting",
+          "desc": "Coconut agriculture & harvesting is pretty straightforward. Just look at the husk. As it matures, the green husk turns yellowish-brown and dries a bit. "
+        }
+      ]
+    }
+  },
+  "cotton": {
+    "crop_name": "cotton",
+    "img": "https://t3.ftcdn.net/jpg/00/87/71/90/240_F_87719016_tHJM7KWXggwqCmLmS9XEIkhrOzmSCYGv.jpg",
+    "market_price": "₹6560/Quintal",
+    "procedure": {
+      "video": "2tuSifDu8Mo",
+      "steps": [
+        {
+          "title": "The first phase is land clearing for soil preparation and weed removal.",
+          "desc": null
+        },
+        {
+          "title": "Cotton seeds are either planted by hand or by machinery.",
+          "desc": null
+        },
+        {
+          "title": "In 11 days, the full cotton stand will emerge and must be secured from disease attacks. It is important to provide adequate fertiliser and irrigation.",
+          "desc": null
+        },
+        {
+          "title": "After 6 weeks, flower buds start developing and the pod emerges after it falls off, which is often called a cotton boll.",
+          "desc": null
+        },
+        {
+          "title": "Within 55 to 80 days, Boll matures and produces fibres from the pods that continue to develop.",
+          "desc": null
+        },
+        {
+          "title": "The leaves have now been removed from the cotton plant.",
+          "desc": null
+        },
+        {
+          "title": "The next step is manual harvesting by machines such as pickers/strippers. To pull the cotton from the plant, the picker system uses wind & guides, leaving behind leaves & the rest of the plant. To separate garbage from the cotton, the stripper device chops the plant & uses air.",
+          "desc": null
+        },
+        {
+          "title": "To separate soil, seeds & short lint from the cotton, the cotton is washed.",
+          "desc": null
+        },
+        {
+          "title": "Cleaned & de-seeded cotton is compressed for further processing & transportation for economical storage.",
+          "desc": null
+        }
+      ]
+    }
+  },
+  "jute": {
+    "crop_name": "jute",
+    "img": "https://t3.ftcdn.net/jpg/01/91/27/76/240_F_191277640_tdXKlzGlKAI8701Wd0WHQm6ljHAgDGPw.jpg",
+    "market_price": "₹5017/Quintal",
+    "procedure": {
+      "video": "P-PrAS--qGA",
+      "steps": [
+        {
+          "title": "Farmers prepare soil and scatter the seeds.",
+          "desc": null
+        },
+        {
+          "title": "After plants grow 15-20 cm tall the harvesting begins. Usually harvesting begins after the flowering and before flower changes to seed.",
+          "desc": null
+        },
+        {
+          "title": "The stalks are cut off close to ground. Stalks are tied into bundles and soaked in water for 20 days.",
+          "desc": null
+        },
+        {
+          "title": "This process breaks bond between pectin bonds and permits fibre to be separated.",
+          "desc": null
+        },
+        {
+          "title": "Retting is the process of separating fibres from stem. It is of different types like mechanical retting done by hammering, chemical retting where chemicals are used for separation, steam or vapour or dew retting, water and microbial retting.",
+          "desc": null
+        },
+        {
+          "title": "After this fibres are washed, dried and tied into bundles. ",
+          "desc": null
+        }
+      ]
+    }
+  },
+  "coffee": {
+    "crop_name": "coffee",
+    "img": "https://t3.ftcdn.net/jpg/01/36/07/78/240_F_136077824_X3OUNj62tf9kKjxqYFjfez2KO89dt3YH.jpg",
+    "market_price": "₹20966/Quintal",
+    "procedure": {
+      "video": "pH-slQwCmNI",
+      "steps": [
+        {
+          "title": "Prepare the Soil",
+          "desc": "Before you start planting your coffee seedlings, it's important to prepare the soil properly. Begin by clearing the planting area of weeds, rocks, and other debris. Make sure the soil is moist but not waterlogged, as coffee plants require well-draining soil."
+        },
+        {
+          "title": "Digging the Holes",
+          "desc": "ext, dig holes that are twice the size of the root ball of your coffee seedlings. The holes should be spaced 6-10 feet apart, depending on the variety of coffee and the growth habit. "
+        },
+        {
+          "title": "Planting the Seedlings",
+          "desc": "Once you've prepared the soil and dug the holes, it's time to plant your coffee seedlings. Begin by removing the seedlings from their containers and gently loosening the roots. "
+        },
+        {
+          "title": "Watering",
+          "desc": "Water the newly planted seedlings immediately after planting, and then regularly thereafter. Be sure to water deeply to encourage deep root growth."
+        },
+        {
+          "title": "Mulcilage",
+          "desc": "After you've watered your coffee plants, apply a layer of organic mulch around the base of each plant. This will help retain soil moisture, regulate soil temperature, and suppress weed growth."
+        },
+        {
+          "title": "Care and Maintenance",
+          "desc": "Finally, remember that coffee plants require regular care and maintenance. Prune your coffee trees as needed to maintain their shape and remove any damaged or diseased branches. Fertilize the trees with a balanced fertilizer according to the manufacturer's instructions, and keep the planting area weed-free and well-maintained. "
+        }
+      ]
+    }
+  }
+}
