@@ -36,6 +36,7 @@ import DetailedProduct from "./Components/Market/DetailedProduct";
 import MyProducts from "./Components/Market/MyProducts";
 import SearchProduct from "./Components/Market/SearchProduct";
 import NonFarmerMarket from "./MarketForNonFamers/NonFarmerMarket";
+import NonFarmerDetailed from "./MarketForNonFamers/NonFarmerDetailed";
 
 //other
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -259,6 +260,14 @@ function MainApp() {
               <MainStack.Screen
                 name="nonfarmermarket"
                 component={NonFarmerMarket}
+                options={{
+                  headerShown: false,
+                  statusBarHidden: true,
+                }}
+              />
+              <MainStack.Screen
+                name="nonfarmermarketdetail"
+                component={NonFarmerDetailed}
                 options={{
                   headerShown: false,
                   statusBarHidden: true,

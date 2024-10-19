@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { useNavigation } from "@react-navigation/native";
 
 const NonFarmerMarket = () => {
   const [resp, setResp] = useState([]);
@@ -32,79 +33,87 @@ const NonFarmerMarket = () => {
   };
   return (
     <View style={styles.container}>
-      <TextInput
+      <Text
         style={{
-          borderWidth: 2,
-          height: 40,
-          width: "90%",
-          marginLeft: "5%",
+          textAlign: "center",
+          fontWeight: 800,
+          fontSize: 25,
           marginVertical: 20,
-          paddingLeft: 20,
-          fontSize: 20,
-          borderRadius: 15,
         }}
-        keyboardType="default"
-        placeholder="Search by crop..."
-        onSubmitEditing={(value) => {
-          // onSearchQuery(value.nativeEvent.text);
-        }}
-      />
+      >
+        Direct from farmers
+      </Text>
       <ProductCard resp={resp} />
     </View>
   );
 };
 
 const ProductCard = ({ resp }) => {
-  const fertilizers = [
-    {
-      id: "1",
-      image: null,
-      name: "Fertilizer A",
-      weight: "20 kg",
-      price: "₹20",
-    },
-    {
-      id: "2",
-      image: null,
-      name: "Fertilizer B",
-      weight: "15 kg",
-      price: "₹30",
-    },
-    {
-      id: "3",
-      image: null,
-      name: "Fertilizer C",
-      weight: "25 kg",
-      price: "₹25",
-    },
-    {
-      id: "4",
-      image: null,
-      name: "Fertilizer D",
-      weight: "10 kg",
-      price: "₹15",
-    },
-    {
-      id: "5",
-      image: null,
-      name: "Fertilizer E",
-      weight: "30 kg",
-      price: "₹50",
-    },
-    {
-      id: "6",
-      image: null,
-      name: "Fertilizer F",
-      weight: "5 kg",
-      price: "₹10",
-    },
-  ];
+  // const fertilizers = [
+  //   {
+  //     id: "1",
+  //     image: null,
+  //     name: "Fertilizer A",
+  //     weight: "20 kg",
+  //     price: "₹20",
+  //   },
+  //   {
+  //     id: "2",
+  //     image: null,
+  //     name: "Fertilizer B",
+  //     weight: "15 kg",
+  //     price: "₹30",
+  //   },
+  //   {
+  //     id: "3",
+  //     image: null,
+  //     name: "Fertilizer C",
+  //     weight: "25 kg",
+  //     price: "₹25",
+  //   },
+  //   {
+  //     id: "4",
+  //     image: null,
+  //     name: "Fertilizer D",
+  //     weight: "10 kg",
+  //     price: "₹15",
+  //   },
+  //   {
+  //     id: "5",
+  //     image: null,
+  //     name: "Fertilizer E",
+  //     weight: "30 kg",
+  //     price: "₹50",
+  //   },
+  //   {
+  //     id: "6",
+  //     image: null,
+  //     name: "Fertilizer F",
+  //     weight: "5 kg",
+  //     price: "₹10",
+  //   },
+  // ];
+
+  const navigation = useNavigation();
 
   return (
     <FlatList
       data={resp}
       renderItem={({ item }) => (
-        <TouchableOpacity style={styles.card}>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate("nonfarmermarketdetail", {
+              name: item.name,
+              img: item.image,
+              price: item.price,
+              description: item.description,
+              stockQuantity: item.stockQuantity,
+              shipingAddress: item.shipingAddress,
+              farmerId: item.farmerId,
+            });
+          }}
+          style={styles.card}
+        >
           <Image
             source={
               !item.image
